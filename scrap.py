@@ -7,6 +7,31 @@ def extract_text_from_pdf(pdf_path):
     doc = fitz.open(pdf_path)
     return "\n".join([page.get_text() for page in doc])
 
+def parse_formy_zajec(section_text):
+    lines = section_text.splitlines()
+
+    try:
+        idx = lines.index("Liczba godzin zajęć")
+    except ValueError:
+        print("Nie znaleziono nagłówka 'Liczba godzin zajęć'")
+        return {}
+
+    formy = lines[:idx]
+    godziny = lines[idx+1:]
+
+    expanded_formy = []
+    for nazwa in formy:
+        if nazwa == "Laboratorium Projekt":
+            expanded_formy.extend(["Laboratorium", "Projekt"])
+        else:
+            expanded_formy.append(nazwa)
+
+    formy_dict = {}
+    for nazwa, godzina in zip(expanded_formy, godziny):
+        formy_dict[nazwa] = float(godzina)
+
+    return formy_dict
+
 def extract_section(text, section_title, stop_titles):
     lines = text.splitlines()
     capturing = False
@@ -32,17 +57,21 @@ def parse_course_info(text):
         match = re.search(pattern, text)
         return match.group(1).strip() if match else None
 
-    def search_next_line(keyword):
-        for i, line in enumerate(lines):
-            if keyword.lower() in line.lower():
-                if i + 1 < len(lines):
-                    return lines[i + 1].strip()
-        return None
+    przedmiot_nazwa_kod = safe_search(r'Nazwa i kod przedmiotu\s+(.+)')
 
-    data['nazwa_kod_przedmiotu'] = safe_search(r'Nazwa i kod przedmiotu\s+(.+)')
+    if przedmiot_nazwa_kod:
+        parts = przedmiot_nazwa_kod.rsplit(' ', 1)
+        data['nazwa_przedmiotu'] = parts[0]
+        data['kod_przedmiotu'] = parts[1] if len(parts) > 1 else None
+    else:
+        data['nazwa_przedmiotu'] = None
+        data['kod_przedmiotu'] = None
+
     data['kierunek'] = safe_search(r'Kierunek studiów\s+(.+)')
-    data['rok_akademicki'] = safe_search(r'Rok akademicki realizacji przedmiotu\s+(\d{4}/\d{4})') or search_next_line("Rok akademicki realizacji przedmiotu")
     data['poziom_ksztalcenia'] = safe_search(r'Poziom kształcenia\s+(.+)')
+    data['rok_akademicki'] = extract_section(
+        text, "Rok akademicki", ["Poziom kształcenia"]
+    )
     data['rok'] = safe_search(r'Rok studiów\s+(\d+)')
     data['semestr'] = safe_search(r'Semestr studiów\s+(\d+)')
     data['jezyk'] = safe_search(r'Język wykładowy\s+(.+)')
@@ -52,7 +81,6 @@ def parse_course_info(text):
     data['cel_przedmiotu'] = extract_section(
         text, "Cel przedmiotu", ["Efekty uczenia się", "Efekt kierunkowy", "Data wygenerowania"]
     )
-
 
     efekty_raw = extract_section(
         text, "Efekty uczenia się", ["Treści przedmiotu", "Wymagania wstępne"]
@@ -68,9 +96,9 @@ def parse_course_info(text):
         text, "Treści przedmiotu", ["Wymagania wstępne", "Sposoby i kryteria"]
     )
 
-    formy_section = extract_section(text, "Formy zajęć", ["Aktywność studenta", "W tym liczba"])
-
-    data['formy_zajec'] = formy_section
+    formy_section = extract_section(text, "Forma zajęć", ["W tym liczba"])
+    formy_dict = parse_formy_zajec(formy_section)
+    data['formy_zajec'] = "\n".join(f"{k}: {v}" for k, v in formy_dict.items())
 
     data['wymagania_wstepne'] = extract_section(
         text, "Wymagania wstępne", ["Sposoby i kryteria"]
@@ -89,11 +117,11 @@ def parse_course_info(text):
     data['tresc_przedmiotu'] = data['tresc_przedmiotu'].replace('\n', ' ')
     data['efekty_uczenia_sie'] = data['efekty_uczenia_sie'].replace('\n', ' ')
     data['cel_przedmiotu'] = data['cel_przedmiotu'].replace('\n', ' ')
-
     data['wymagania_wstepne'] = data['wymagania_wstepne'].replace('\n', ' ')
     data['wymagania_wstepne'] = data['wymagania_wstepne'].replace('i dodatkowe', '')
-
     data['formy_zajec'] = data['formy_zajec'].replace('\n', ' ')
+    data['rok_akademicki'] = data['rok_akademicki'].replace('przedmiotu', '')
+    data['rok_akademicki'] = data['rok_akademicki'].replace('\n', '')
 
     return data
 
@@ -116,4 +144,4 @@ def process_pdfs_in_folder(folder_path):
             print(f"{pdf_file.name}: {e}")
 
 if __name__ == "__main__":
-    process_pdfs_in_folder("C:\\Users\\Kacper\\Desktop\\PDFy")
+    process_pdfs_in_folder("C:\\ZPB_Scrapper\\Scrapper")
