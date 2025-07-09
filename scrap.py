@@ -101,7 +101,7 @@ def parse_course_info(text):
     data['formy_zajec'] = "\n".join(f"{k}: {v}" for k, v in formy_dict.items())
 
     data['wymagania_wstepne'] = extract_section(
-        text, "Wymagania wstępne", ["Sposoby i kryteria"]
+        text, "Wymagania wstępne", ["Sposoby i kryteria", "Data wygenerowania"]
     )
 
     data['lista_lektur'] = extract_section(
@@ -126,6 +126,7 @@ def parse_course_info(text):
     return data
 
 def save_as_json(data, out_path):
+    out_path.parent.mkdir(parents=True, exist_ok=True)
     with open(out_path, "w", encoding="utf-8") as f:
         json.dump(data, f, indent=4, ensure_ascii=False)
 
@@ -133,15 +134,21 @@ def process_pdfs_in_folder(folder_path):
     folder = Path(folder_path)
     pdf_files = list(folder.glob("*.pdf"))
 
+    output_folder = folder.parent / "json_karty"
+    output_folder.mkdir(exist_ok=True)
+
     for pdf_file in pdf_files:
         try:
             text = extract_text_from_pdf(pdf_file)
             parsed_data = parse_course_info(text)
-            output_file = pdf_file.with_suffix(".json")
+            output_file = output_folder / (pdf_file.stem + ".json")
             save_as_json(parsed_data, output_file)
-            print(f"{output_file.name}")
+            print(f"Zapisano: {output_file.name}")
         except Exception as e:
-            print(f"{pdf_file.name}: {e}")
+            print(f"Błąd przy {pdf_file.name}: {e}")
+
 
 if __name__ == "__main__":
-    process_pdfs_in_folder("C:\\ZPB_Scrapper\\Scrapper")
+
+    folder_to_process = Path(__file__).parent / "karty_przedmiotow"
+    process_pdfs_in_folder(folder_to_process)
