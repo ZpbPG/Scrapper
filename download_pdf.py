@@ -2,30 +2,42 @@ import requests
 from bs4 import BeautifulSoup
 import os
 
-# Adres strony z przedmiotami
-URL = "https://ects.pg.edu.pl/pl/courses/17326/subjects"
+URLS = [
+    "https://ects.pg.edu.pl/pl/courses/17326/subcourses/17329/subjects",
+    "https://ects.pg.edu.pl/pl/courses/17326/subcourses/17328/subjects",
+    "https://ects.pg.edu.pl/pl/courses/17326/subcourses/17332/subjects",
+    "https://ects.pg.edu.pl/pl/courses/17326/subcourses/17331/subjects",
+]
+
 BASE = "https://ects.pg.edu.pl"
 
-# Pobierz stronę
-response = requests.get(URL)
-response.raise_for_status()
-soup = BeautifulSoup(response.text, "html.parser")
-
-# Stwórz folder na pliki
 os.makedirs("karty_przedmiotow", exist_ok=True)
 
-# Znajdź wszystkie linki do kart przedmiotu
-links = soup.find_all("a", href=lambda href: href and href.endswith("card.pdf"))
+# Zbiór unikalnych linków
+unique_pdf_urls = set()
 
-print(f"Znaleziono {len(links)} kart przedmiotów.")
+# Zbieranie linków PDF z każdej strony
+for url in URLS:
+    print(f"Przetwarzam: {url}")
+    response = requests.get(url)
+    response.raise_for_status()
+    soup = BeautifulSoup(response.text, "html.parser")
 
-for i, link in enumerate(links, 1):
-    href = link["href"]
-    pdf_url = href if href.startswith("http") else BASE + href
-    filename = pdf_url.split("/")[-2] + ".pdf"  # np. 372984.pdf
+    links = soup.find_all("a", href=lambda href: href and href.endswith("card.pdf"))
+
+    for link in links:
+        href = link["href"]
+        pdf_url = href if href.startswith("http") else BASE + href
+        unique_pdf_urls.add(pdf_url)
+
+print(f"Znaleziono {len(unique_pdf_urls)} unikalnych plików PDF.\n")
+
+# Pobieranie PDF-ów
+for i, pdf_url in enumerate(unique_pdf_urls, 1):
+    filename = pdf_url.split("/")[-2] + ".pdf"
     filepath = os.path.join("karty_przedmiotow", filename)
 
-    print(f"Pobieranie {i}: {filename}...")
+    print(f"Pobieram {i}: {filename}")
     pdf_response = requests.get(pdf_url)
     with open(filepath, "wb") as f:
         f.write(pdf_response.content)
