@@ -137,15 +137,23 @@ def process_pdfs_in_folder(folder_path):
     output_folder = folder.parent / "json_karty"
     output_folder.mkdir(exist_ok=True)
 
+    all_data = []  # lista na wszystkie wyniki
+
     for pdf_file in pdf_files:
         try:
             text = extract_text_from_pdf(pdf_file)
             parsed_data = parse_course_info(text)
-            output_file = output_folder / (pdf_file.stem + ".json")
-            save_as_json(parsed_data, output_file)
-            print(f"Zapisano: {output_file.name}")
+            parsed_data["plik"] = pdf_file.name  # opcjonalnie: dodaj nazwę pliku do danych
+            all_data.append(parsed_data)
+            print(f"Przetworzono: {pdf_file.name}")
         except Exception as e:
             print(f"Błąd przy {pdf_file.name}: {e}")
+
+    # Zapisz wszystkie dane do jednego JSON-a
+    output_file = output_folder / "wszystkie_karty.json"
+    save_as_json(all_data, output_file)
+    print(f"Zapisano zbiorczy plik: {output_file.name}")
+
 
 
 if __name__ == "__main__":
