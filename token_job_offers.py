@@ -2,8 +2,8 @@ import json
 import re
 import spacy
 import os
-import glob
 
+# ładowanie modeli spaCy
 nlp_pl = spacy.load("pl_core_news_sm")
 nlp_en = spacy.load("en_core_web_sm")
 
@@ -12,6 +12,7 @@ STOP_WORDS = {
     "or", "and", "the", "for", "with", "of"
 }
 
+# tokenizacja i lematyzacja
 def get_tokens_spacy(text, lang_model):
     doc = lang_model(text)
     return [
@@ -20,15 +21,17 @@ def get_tokens_spacy(text, lang_model):
         if t.is_alpha and not t.is_stop and t.lemma_.lower() not in STOP_WORDS
     ]
 
-def generate_ngrams(tokens, n_min=2, n_max=5):
+# n-gramy
+def generate_ngrams(tokens, n_min=1, n_max=5):
     ngrams = []
-    for n in range(n_min, n_max+1):
+    for n in range(n_min, n_max + 1):
         ngrams.extend([
             " ".join(tokens[i:i+n])
             for i in range(len(tokens)-n+1)
         ])
     return ngrams
 
+# przetwarzanie tekstu z spaCy
 def process_text(text):
     if not isinstance(text, str) or not text.strip():
         return []
@@ -45,25 +48,21 @@ def process_text(text):
 
     return ngrams
 
-def process_any(value):
-
+def process_specification(value):
     if isinstance(value, str):
         return process_text(value)
-
     elif isinstance(value, list):
-        return [process_any(v) for v in value]
-
+        return [process_specification(v) for v in value]
     elif isinstance(value, dict):
-        return {k: process_any(v) for k, v in value.items()}
-
+        return {k: process_specification(v) for k, v in value.items()}
     else:
-        return value
+        return value  # pomijamy inne typy
 
-
-file_path = "job_offers_json/details_2025-01.json"   # ← ustaw swój plik!
+# --- PRZETWARZANIE PLIKU ---
+file_path = "job_offers_json/details_2025-11.json"   # ustaw swój plik
 filename = os.path.basename(file_path)
 name_no_ext = filename.replace(".json", "")
-output_file = f"job_offers_json/ngrams_{name_no_ext}.json"
+output_file = f"job_offers_json/ngrams_{name_no_ext}_specification.json"
 
 print(f"Przetwarzam: {filename}")
 
@@ -73,9 +72,11 @@ with open(file_path, "r", encoding="utf-8") as f:
 processed = []
 for entry in data:
     entry_id = entry.get("url", "unknown")
+    spec = entry.get("specification", {})
     processed.append({
-        entry_id: process_any(entry)
+        entry_id: process_specification(spec)
     })
+    print(f"Dzicz: {entry_id}")
 
 with open(output_file, "w", encoding="utf-8") as f:
     json.dump(processed, f, ensure_ascii=False, indent=4)
