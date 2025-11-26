@@ -9,10 +9,19 @@ STOP_WORDS = {"i", "oraz", "w", "na", "do", "z", "or", "and", "the", "for", "wit
 
 def get_tokens_spacy(text, lang_model):
     doc = lang_model(text)
-    tokens = [t.lemma_.lower() for t in doc if t.is_alpha and not t.is_stop and t.lemma_.lower() not in STOP_WORDS]
+    # filtrujemy tokeny: tylko słowa (is_alpha), nie stopwords, i nie przymiotniki (ADJ)
+    tokens = [
+        t.lemma_.lower()
+        for t in doc
+        if t.is_alpha
+        and not t.is_stop
+        and t.lemma_.lower() not in STOP_WORDS
+        and t.pos_ != "ADJ"  # pomijamy przymiotniki
+    ]
     return tokens
 
-def generate_ngrams(tokens, n_min=2, n_max=5):
+
+def generate_ngrams(tokens, n_min=1, n_max=5):
     ngrams = []
     for n in range(n_min, n_max+1):
         ngrams.extend([' '.join(tokens[i:i+n]) for i in range(len(tokens)-n+1)])

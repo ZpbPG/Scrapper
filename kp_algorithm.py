@@ -8,14 +8,14 @@ model = SentenceTransformer('all-MiniLM-L6-v2')
 with open("json_karty/ngrams_per_course.json", "r", encoding="utf-8") as f:
     courses = json.load(f)
 
-with open("job_offers_json/ngrams_details_2025-11_specification.json", "r", encoding="utf-8") as f:
+with open("job_offers_tokenized/ngrams_details_2025-11_specification.json", "r", encoding="utf-8") as f:
     jobs = json.load(f)
 
 # 2️⃣ Przygotowanie fraz KP
 all_course_phrases = []
 course_map = []  # (course_id, fraza)
 for course_id, fields in courses.items():
-    for key in ["lista_lektur", "tresc_przedmiotu", "przykladowe_zagadnienia", "cel_przedmiotu"]:
+    for key in ["lista_lektur", "tresc_przedmiotu", "przykladowe_zagadnienia", "cel_przedmiotu", "efekty_uczenia_sie"]:
         if key in fields:
             for t in fields[key]:
                 if isinstance(t, list):
