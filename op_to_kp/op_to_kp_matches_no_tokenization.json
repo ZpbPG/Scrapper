@@ -1,10 +1,127 @@
 {
     "https://pracuj.pl/praca/scm-administrator-clearcase-clearquest-websphere-perl-python-germany,oferta,11666680": {
+        "Perl": [
+            {
+                "course_id": "PG_00045302",
+                "course_phrase": "uml",
+                "similarity": 0.5336021780967712
+            },
+            {
+                "course_id": "PG_00045302",
+                "course_phrase": "uml",
+                "similarity": 0.5336021780967712
+            },
+            {
+                "course_id": "PG_00045302",
+                "course_phrase": "uml",
+                "similarity": 0.5336021780967712
+            },
+            {
+                "course_id": "PG_00045302",
+                "course_phrase": "uml",
+                "similarity": 0.5336021780967712
+            },
+            {
+                "course_id": "PG_00045302",
+                "course_phrase": "uml",
+                "similarity": 0.5336021780967712
+            },
+            {
+                "course_id": "PG_00045302",
+                "course_phrase": "uml",
+                "similarity": 0.5336021780967712
+            },
+            {
+                "course_id": "PG_00045302",
+                "course_phrase": "uml",
+                "similarity": 0.5336021780967712
+            },
+            {
+                "course_id": "PG_00045302",
+                "course_phrase": "uml",
+                "similarity": 0.5336021780967712
+            },
+            {
+                "course_id": "PG_00045302",
+                "course_phrase": "uml",
+                "similarity": 0.5336021780967712
+            },
+            {
+                "course_id": "PG_00045302",
+                "course_phrase": "uml",
+                "similarity": 0.5336021780967712
+            },
+            {
+                "course_id": "PG_00045372",
+                "course_phrase": "przyklad cel",
+                "similarity": 0.5197002291679382
+            },
+            {
+                "course_id": "PG_00045302",
+                "course_phrase": "perspektywy",
+                "similarity": 0.5191883444786072
+            },
+            {
+                "course_id": "PG_00045321",
+                "course_phrase": "perspektywy",
+                "similarity": 0.5191883444786072
+            },
+            {
+                "course_id": "PG_00053094",
+                "course_phrase": "przedmiot cel",
+                "similarity": 0.5074468851089478
+            },
+            {
+                "course_id": "PG_00045314",
+                "course_phrase": "cel praca",
+                "similarity": 0.5055317878723145
+            },
+            {
+                "course_id": "PG_00045314",
+                "course_phrase": "cel praca",
+                "similarity": 0.5055316686630249
+            },
+            {
+                "course_id": "PG_00045315",
+                "course_phrase": "cel praca",
+                "similarity": 0.5055316686630249
+            },
+            {
+                "course_id": "PG_00045328",
+                "course_phrase": "cel przedmiot przygotować",
+                "similarity": 0.5048993825912476
+            },
+            {
+                "course_id": "PG_00045359",
+                "course_phrase": "per",
+                "similarity": 0.5026366710662842
+            },
+            {
+                "course_id": "PG_00053098",
+                "course_phrase": "per",
+                "similarity": 0.5026366710662842
+            },
+            {
+                "course_id": "PG_00045372",
+                "course_phrase": "proces przyklad cel",
+                "similarity": 0.5010356307029724
+            }
+        ],
         "Windows Server": [
             {
                 "course_id": "PG_00045291",
                 "course_phrase": "windows",
                 "similarity": 0.6282880306243896
+            },
+            {
+                "course_id": "PG_00045291",
+                "course_phrase": "operating system",
+                "similarity": 0.5761874914169312
+            },
+            {
+                "course_id": "PG_00045291",
+                "course_phrase": "linux windows",
+                "similarity": 0.5432980060577393
             }
         ],
         "UNIX": [
@@ -387,6 +504,793 @@
                 "course_id": "PG_00061802",
                 "course_phrase": "r unix network programming prentice",
                 "similarity": 0.6005051136016846
+            },
+            {
+                "course_id": "PG_00045295",
+                "course_phrase": "programming",
+                "similarity": 0.5979702472686768
+            },
+            {
+                "course_id": "PG_00045295",
+                "course_phrase": "programming",
+                "similarity": 0.5979702472686768
+            },
+            {
+                "course_id": "PG_00045295",
+                "course_phrase": "programming",
+                "similarity": 0.5979702472686768
+            },
+            {
+                "course_id": "PG_00045295",
+                "course_phrase": "programming",
+                "similarity": 0.5979702472686768
+            },
+            {
+                "course_id": "PG_00045303",
+                "course_phrase": "programming",
+                "similarity": 0.5979702472686768
+            },
+            {
+                "course_id": "PG_00045303",
+                "course_phrase": "programming",
+                "similarity": 0.5979702472686768
+            },
+            {
+                "course_id": "PG_00045303",
+                "course_phrase": "programming",
+                "similarity": 0.5979702472686768
+            },
+            {
+                "course_id": "PG_00045303",
+                "course_phrase": "programming",
+                "similarity": 0.5979702472686768
+            },
+            {
+                "course_id": "PG_00061802",
+                "course_phrase": "programming",
+                "similarity": 0.5979702472686768
+            },
+            {
+                "course_id": "PG_00061802",
+                "course_phrase": "programming",
+                "similarity": 0.5979702472686768
+            },
+            {
+                "course_id": "PG_00061802",
+                "course_phrase": "wielowatkowych systemie unix",
+                "similarity": 0.5935516953468323
+            },
+            {
+                "course_id": "PG_00045291",
+                "course_phrase": "systemu unix",
+                "similarity": 0.5926680564880371
+            },
+            {
+                "course_id": "PG_00061802",
+                "course_phrase": "semaforowa semafora system unix programowanie",
+                "similarity": 0.5921416282653809
+            },
+            {
+                "course_id": "PG_00045291",
+                "course_phrase": "shell",
+                "similarity": 0.5903172492980957
+            },
+            {
+                "course_id": "PG_00045291",
+                "course_phrase": "shell",
+                "similarity": 0.5903172492980957
+            },
+            {
+                "course_id": "PG_00045291",
+                "course_phrase": "shell",
+                "similarity": 0.5903172492980957
+            },
+            {
+                "course_id": "PG_00045291",
+                "course_phrase": "shell",
+                "similarity": 0.5903172492980957
+            },
+            {
+                "course_id": "PG_00045291",
+                "course_phrase": "systemu unix helion kaczmarek j",
+                "similarity": 0.590179979801178
+            },
+            {
+                "course_id": "PG_00061802",
+                "course_phrase": "zastosować semaforowa semafora system unix",
+                "similarity": 0.589981198310852
+            },
+            {
+                "course_id": "PG_00061802",
+                "course_phrase": "warszwa stevens r unix",
+                "similarity": 0.5896311402320862
+            },
+            {
+                "course_id": "PG_00061802",
+                "course_phrase": "warszwa stevens r unix",
+                "similarity": 0.5896311402320862
+            },
+            {
+                "course_id": "PG_00061802",
+                "course_phrase": "zmienne warunkowe systemie unix",
+                "similarity": 0.5889215469360352
+            },
+            {
+                "course_id": "PG_00045353",
+                "course_phrase": "oś",
+                "similarity": 0.5878629684448242
+            },
+            {
+                "course_id": "PG_00061802",
+                "course_phrase": "binarne uogolnione systemie unix programowanie",
+                "similarity": 0.5840470790863037
+            },
+            {
+                "course_id": "PG_00061802",
+                "course_phrase": "techniczne warszwa stevens r unix",
+                "similarity": 0.5811944007873535
+            },
+            {
+                "course_id": "PG_00045295",
+                "course_phrase": "programming language",
+                "similarity": 0.5811203122138977
+            },
+            {
+                "course_id": "PG_00045295",
+                "course_phrase": "programming language",
+                "similarity": 0.5811203122138977
+            },
+            {
+                "course_id": "PG_00045291",
+                "course_phrase": "systemu unix helion kaczmarek",
+                "similarity": 0.5785720348358154
+            },
+            {
+                "course_id": "PG_00061802",
+                "course_phrase": "unix implementacja procedura porownanie zestawienie",
+                "similarity": 0.5776263475418091
+            },
+            {
+                "course_id": "PG_00061802",
+                "course_phrase": "system unix implementacja",
+                "similarity": 0.5730657577514648
+            },
+            {
+                "course_id": "PG_00061802",
+                "course_phrase": "uogolnione systemie unix programowanie wielowatkowe",
+                "similarity": 0.5730289220809937
+            },
+            {
+                "course_id": "PG_00045291",
+                "course_phrase": "system linux",
+                "similarity": 0.5713505148887634
+            },
+            {
+                "course_id": "PG_00045291",
+                "course_phrase": "system linux",
+                "similarity": 0.5713505148887634
+            },
+            {
+                "course_id": "PG_00045291",
+                "course_phrase": "system linux",
+                "similarity": 0.5713505148887634
+            },
+            {
+                "course_id": "PG_00045291",
+                "course_phrase": "system linux",
+                "similarity": 0.5713505148887634
+            },
+            {
+                "course_id": "PG_00061802",
+                "course_phrase": "unix monitory wprowadzić omowieć mechanizm",
+                "similarity": 0.5654075145721436
+            },
+            {
+                "course_id": "PG_00061802",
+                "course_phrase": "system unix monitory wprowadzić omowieć",
+                "similarity": 0.5644623041152954
+            },
+            {
+                "course_id": "PG_00061802",
+                "course_phrase": "funkcji wielowatkowych systemie unix monitory",
+                "similarity": 0.5634425282478333
+            },
+            {
+                "course_id": "PG_00061802",
+                "course_phrase": "uogolnione systemie unix",
+                "similarity": 0.5625065565109253
+            },
+            {
+                "course_id": "PG_00045291",
+                "course_phrase": "ed przewodnik administrator system unix",
+                "similarity": 0.562246561050415
+            },
+            {
+                "course_id": "PG_00061802",
+                "course_phrase": "funkcja system unix",
+                "similarity": 0.5615257024765015
+            },
+            {
+                "course_id": "PG_00061802",
+                "course_phrase": "unix monitory wprowadzić omowieć",
+                "similarity": 0.5610173344612122
+            },
+            {
+                "course_id": "PG_00045291",
+                "course_phrase": "administrator system unix helion",
+                "similarity": 0.5579767227172852
+            },
+            {
+                "course_id": "PG_00061802",
+                "course_phrase": "system unix implementacja procedura",
+                "similarity": 0.5539058446884155
+            },
+            {
+                "course_id": "PG_00045291",
+                "course_phrase": "przewodnik administratora systemu unix",
+                "similarity": 0.5522385835647583
+            },
+            {
+                "course_id": "PG_00061802",
+                "course_phrase": "unix monitory wprowadzić",
+                "similarity": 0.5507520437240601
+            },
+            {
+                "course_id": "PG_00061802",
+                "course_phrase": "system unix monitory wprowadzić",
+                "similarity": 0.5486276149749756
+            },
+            {
+                "course_id": "PG_00061802",
+                "course_phrase": "warunkowe systemie unix",
+                "similarity": 0.5483505129814148
+            },
+            {
+                "course_id": "PG_00061802",
+                "course_phrase": "systemie unix",
+                "similarity": 0.548313319683075
+            },
+            {
+                "course_id": "PG_00061802",
+                "course_phrase": "systemie unix",
+                "similarity": 0.548313319683075
+            },
+            {
+                "course_id": "PG_00061802",
+                "course_phrase": "systemie unix",
+                "similarity": 0.548313319683075
+            },
+            {
+                "course_id": "PG_00045305",
+                "course_phrase": "user system",
+                "similarity": 0.5482093095779419
+            },
+            {
+                "course_id": "PG_00045305",
+                "course_phrase": "user system",
+                "similarity": 0.5482093095779419
+            },
+            {
+                "course_id": "PG_00045291",
+                "course_phrase": "administrator system unix helion kaczmarek",
+                "similarity": 0.5428457856178284
+            },
+            {
+                "course_id": "PG_00061802",
+                "course_phrase": "procesow biblioteka funkcja system unix",
+                "similarity": 0.5417952537536621
+            },
+            {
+                "course_id": "PG_00061802",
+                "course_phrase": "semafora system unix",
+                "similarity": 0.541172206401825
+            },
+            {
+                "course_id": "PG_00061802",
+                "course_phrase": "unix monitory wprowadzenie omowienie mechanizmu",
+                "similarity": 0.5386644005775452
+            },
+            {
+                "course_id": "PG_00045291",
+                "course_phrase": "linux command line",
+                "similarity": 0.5365003347396851
+            },
+            {
+                "course_id": "PG_00045291",
+                "course_phrase": "linux command line",
+                "similarity": 0.5365002751350403
+            },
+            {
+                "course_id": "PG_00061802",
+                "course_phrase": "r unix network",
+                "similarity": 0.5357235670089722
+            },
+            {
+                "course_id": "PG_00061802",
+                "course_phrase": "r unix network",
+                "similarity": 0.5357235670089722
+            },
+            {
+                "course_id": "PG_00045295",
+                "course_phrase": "programming language bruce",
+                "similarity": 0.5329292416572571
+            },
+            {
+                "course_id": "PG_00045295",
+                "course_phrase": "programming language bruce",
+                "similarity": 0.5329292416572571
+            },
+            {
+                "course_id": "PG_00061802",
+                "course_phrase": "unix implementacja",
+                "similarity": 0.53240966796875
+            },
+            {
+                "course_id": "PG_00045291",
+                "course_phrase": "systemu unix helion",
+                "similarity": 0.5317074060440063
+            },
+            {
+                "course_id": "PG_00061802",
+                "course_phrase": "systemie unix praktyczna",
+                "similarity": 0.5309853553771973
+            },
+            {
+                "course_id": "PG_00045291",
+                "course_phrase": "shell scripting",
+                "similarity": 0.5308915972709656
+            },
+            {
+                "course_id": "PG_00045291",
+                "course_phrase": "shell scripting",
+                "similarity": 0.5308915972709656
+            },
+            {
+                "course_id": "PG_00061802",
+                "course_phrase": "unix monitory wprowadzenie omowienie",
+                "similarity": 0.5282009243965149
+            },
+            {
+                "course_id": "PG_00061802",
+                "course_phrase": "stevens r unix network programming",
+                "similarity": 0.5274398326873779
+            },
+            {
+                "course_id": "PG_00061802",
+                "course_phrase": "stevens r unix network programming",
+                "similarity": 0.5274398326873779
+            },
+            {
+                "course_id": "PG_00061802",
+                "course_phrase": "r unix network programming",
+                "similarity": 0.526652991771698
+            },
+            {
+                "course_id": "PG_00061802",
+                "course_phrase": "r unix network programming",
+                "similarity": 0.526652991771698
+            },
+            {
+                "course_id": "PG_00045291",
+                "course_phrase": "operating system concepts",
+                "similarity": 0.524573564529419
+            },
+            {
+                "course_id": "PG_00061802",
+                "course_phrase": "unix programowanie wielowatkowe synchronizacja dostepu",
+                "similarity": 0.5242998600006104
+            },
+            {
+                "course_id": "PG_00061802",
+                "course_phrase": "uogolnione systemie unix programowanie",
+                "similarity": 0.5232055187225342
+            },
+            {
+                "course_id": "PG_00045302",
+                "course_phrase": "software",
+                "similarity": 0.5227399468421936
+            },
+            {
+                "course_id": "PG_00045302",
+                "course_phrase": "software",
+                "similarity": 0.5227399468421936
+            },
+            {
+                "course_id": "PG_00045302",
+                "course_phrase": "software",
+                "similarity": 0.5227399468421936
+            },
+            {
+                "course_id": "PG_00053008",
+                "course_phrase": "software",
+                "similarity": 0.5227399468421936
+            },
+            {
+                "course_id": "PG_00045302",
+                "course_phrase": "software",
+                "similarity": 0.5227397680282593
+            },
+            {
+                "course_id": "PG_00045291",
+                "course_phrase": "przewodnik administrator system unix",
+                "similarity": 0.5221202373504639
+            },
+            {
+                "course_id": "PG_00045310",
+                "course_phrase": "program",
+                "similarity": 0.5217310786247253
+            },
+            {
+                "course_id": "PG_00045295",
+                "course_phrase": "program",
+                "similarity": 0.5217310786247253
+            },
+            {
+                "course_id": "PG_00045291",
+                "course_phrase": "program",
+                "similarity": 0.5217310786247253
+            },
+            {
+                "course_id": "PG_00045290",
+                "course_phrase": "program",
+                "similarity": 0.5217310786247253
+            },
+            {
+                "course_id": "PG_00045290",
+                "course_phrase": "program",
+                "similarity": 0.5217310786247253
+            },
+            {
+                "course_id": "PG_00045290",
+                "course_phrase": "program",
+                "similarity": 0.5217310786247253
+            },
+            {
+                "course_id": "PG_00045329",
+                "course_phrase": "program",
+                "similarity": 0.5217310786247253
+            },
+            {
+                "course_id": "PG_00053008",
+                "course_phrase": "program",
+                "similarity": 0.5217310786247253
+            },
+            {
+                "course_id": "PG_00053008",
+                "course_phrase": "program",
+                "similarity": 0.5217310786247253
+            },
+            {
+                "course_id": "PG_00053095",
+                "course_phrase": "program",
+                "similarity": 0.5217310786247253
+            },
+            {
+                "course_id": "PG_00045322",
+                "course_phrase": "program",
+                "similarity": 0.5217310786247253
+            },
+            {
+                "course_id": "PG_00045379",
+                "course_phrase": "program",
+                "similarity": 0.5217310786247253
+            },
+            {
+                "course_id": "PG_00045374",
+                "course_phrase": "program",
+                "similarity": 0.5217310786247253
+            },
+            {
+                "course_id": "PG_00045372",
+                "course_phrase": "program",
+                "similarity": 0.5217310786247253
+            },
+            {
+                "course_id": "PG_00045291",
+                "course_phrase": "przewodnik administratora systemu unix helion",
+                "similarity": 0.5208101272583008
+            },
+            {
+                "course_id": "PG_00061802",
+                "course_phrase": "problemow przyklad system unix implementacja",
+                "similarity": 0.519249677658081
+            },
+            {
+                "course_id": "PG_00061802",
+                "course_phrase": "unix programowanie wielowatkowe synchronizacja",
+                "similarity": 0.5185222625732422
+            },
+            {
+                "course_id": "PG_00045329",
+                "course_phrase": "programs",
+                "similarity": 0.5178757905960083
+            },
+            {
+                "course_id": "PG_00045295",
+                "course_phrase": "java",
+                "similarity": 0.5143616199493408
+            },
+            {
+                "course_id": "PG_00045295",
+                "course_phrase": "java",
+                "similarity": 0.5143616199493408
+            },
+            {
+                "course_id": "PG_00045295",
+                "course_phrase": "java",
+                "similarity": 0.5143616199493408
+            },
+            {
+                "course_id": "PG_00045295",
+                "course_phrase": "java",
+                "similarity": 0.5143616199493408
+            },
+            {
+                "course_id": "PG_00045295",
+                "course_phrase": "java",
+                "similarity": 0.5143616199493408
+            },
+            {
+                "course_id": "PG_00045295",
+                "course_phrase": "java",
+                "similarity": 0.5143616199493408
+            },
+            {
+                "course_id": "PG_00045295",
+                "course_phrase": "java",
+                "similarity": 0.5143616199493408
+            },
+            {
+                "course_id": "PG_00045295",
+                "course_phrase": "java",
+                "similarity": 0.5143616199493408
+            },
+            {
+                "course_id": "PG_00045384",
+                "course_phrase": "java",
+                "similarity": 0.5143616199493408
+            },
+            {
+                "course_id": "PG_00045384",
+                "course_phrase": "java",
+                "similarity": 0.5143616199493408
+            },
+            {
+                "course_id": "PG_00045322",
+                "course_phrase": "java",
+                "similarity": 0.5143616199493408
+            },
+            {
+                "course_id": "PG_00045322",
+                "course_phrase": "java",
+                "similarity": 0.5143616199493408
+            },
+            {
+                "course_id": "PG_00045322",
+                "course_phrase": "java",
+                "similarity": 0.5143616199493408
+            },
+            {
+                "course_id": "PG_00045322",
+                "course_phrase": "java",
+                "similarity": 0.5143616199493408
+            },
+            {
+                "course_id": "PG_00045322",
+                "course_phrase": "java",
+                "similarity": 0.5143616199493408
+            },
+            {
+                "course_id": "PG_00045322",
+                "course_phrase": "java",
+                "similarity": 0.5143616199493408
+            },
+            {
+                "course_id": "PG_00045322",
+                "course_phrase": "java",
+                "similarity": 0.5143616199493408
+            },
+            {
+                "course_id": "PG_00045322",
+                "course_phrase": "java",
+                "similarity": 0.5143616199493408
+            },
+            {
+                "course_id": "PG_00045322",
+                "course_phrase": "java",
+                "similarity": 0.5143616199493408
+            },
+            {
+                "course_id": "PG_00045322",
+                "course_phrase": "java",
+                "similarity": 0.5143616199493408
+            },
+            {
+                "course_id": "PG_00045322",
+                "course_phrase": "java",
+                "similarity": 0.5143616199493408
+            },
+            {
+                "course_id": "PG_00045322",
+                "course_phrase": "java",
+                "similarity": 0.5143616199493408
+            },
+            {
+                "course_id": "PG_00045322",
+                "course_phrase": "java",
+                "similarity": 0.5143616199493408
+            },
+            {
+                "course_id": "PG_00045322",
+                "course_phrase": "java",
+                "similarity": 0.5143616199493408
+            },
+            {
+                "course_id": "PG_00045322",
+                "course_phrase": "java",
+                "similarity": 0.5143616199493408
+            },
+            {
+                "course_id": "PG_00045322",
+                "course_phrase": "java",
+                "similarity": 0.5143616199493408
+            },
+            {
+                "course_id": "PG_00045322",
+                "course_phrase": "java",
+                "similarity": 0.5143616199493408
+            },
+            {
+                "course_id": "PG_00045322",
+                "course_phrase": "java",
+                "similarity": 0.5143616199493408
+            },
+            {
+                "course_id": "PG_00045322",
+                "course_phrase": "java",
+                "similarity": 0.5143616199493408
+            },
+            {
+                "course_id": "PG_00045322",
+                "course_phrase": "java",
+                "similarity": 0.5143616199493408
+            },
+            {
+                "course_id": "PG_00045322",
+                "course_phrase": "java",
+                "similarity": 0.5143616199493408
+            },
+            {
+                "course_id": "PG_00045322",
+                "course_phrase": "java",
+                "similarity": 0.5143616199493408
+            },
+            {
+                "course_id": "PG_00045322",
+                "course_phrase": "java",
+                "similarity": 0.5143616199493408
+            },
+            {
+                "course_id": "PG_00045325",
+                "course_phrase": "computing",
+                "similarity": 0.512605607509613
+            },
+            {
+                "course_id": "PG_00045325",
+                "course_phrase": "computing",
+                "similarity": 0.512605607509613
+            },
+            {
+                "course_id": "PG_00045371",
+                "course_phrase": "computing",
+                "similarity": 0.512605607509613
+            },
+            {
+                "course_id": "PG_00045325",
+                "course_phrase": "computing",
+                "similarity": 0.5126055479049683
+            },
+            {
+                "course_id": "PG_00045325",
+                "course_phrase": "computing",
+                "similarity": 0.5126055479049683
+            },
+            {
+                "course_id": "PG_00045371",
+                "course_phrase": "computing",
+                "similarity": 0.5126055479049683
+            },
+            {
+                "course_id": "PG_00055632",
+                "course_phrase": "file",
+                "similarity": 0.5114526748657227
+            },
+            {
+                "course_id": "PG_00055632",
+                "course_phrase": "file",
+                "similarity": 0.5114526748657227
+            },
+            {
+                "course_id": "PG_00061802",
+                "course_phrase": "system unix programowanie synchronizacja",
+                "similarity": 0.5111839175224304
+            },
+            {
+                "course_id": "PG_00061802",
+                "course_phrase": "semafora system unix programowanie",
+                "similarity": 0.5103577375411987
+            },
+            {
+                "course_id": "PG_00045291",
+                "course_phrase": "linux command line shell",
+                "similarity": 0.5099133253097534
+            },
+            {
+                "course_id": "PG_00045291",
+                "course_phrase": "linux command line shell",
+                "similarity": 0.5099133253097534
+            },
+            {
+                "course_id": "PG_00045291",
+                "course_phrase": "linux windows",
+                "similarity": 0.50991290807724
+            },
+            {
+                "course_id": "PG_00061802",
+                "course_phrase": "biblioteka funkcja system unix",
+                "similarity": 0.5089965462684631
+            },
+            {
+                "course_id": "PG_00045290",
+                "course_phrase": "platform",
+                "similarity": 0.5086218118667603
+            },
+            {
+                "course_id": "PG_00061802",
+                "course_phrase": "system unix programowanie synchronizacja dostep",
+                "similarity": 0.5080011487007141
+            },
+            {
+                "course_id": "PG_00045295",
+                "course_phrase": "c python",
+                "similarity": 0.5066184997558594
+            },
+            {
+                "course_id": "PG_00045295",
+                "course_phrase": "c python",
+                "similarity": 0.5066184997558594
+            },
+            {
+                "course_id": "PG_00045291",
+                "course_phrase": "command line shell",
+                "similarity": 0.5055657625198364
+            },
+            {
+                "course_id": "PG_00045291",
+                "course_phrase": "command line shell",
+                "similarity": 0.5055657625198364
+            },
+            {
+                "course_id": "PG_00045291",
+                "course_phrase": "operating system concepts wiley richard",
+                "similarity": 0.5026148557662964
+            },
+            {
+                "course_id": "PG_00061802",
+                "course_phrase": "unix praktyczna implementacja procedur",
+                "similarity": 0.5023454427719116
+            }
+        ],
+        "Jenkins": [
+            {
+                "course_id": "PG_00045352",
+                "course_phrase": "meyer",
+                "similarity": 0.5259820222854614
+            },
+            {
+                "course_id": "PG_00045352",
+                "course_phrase": "meyer",
+                "similarity": 0.5259820222854614
             }
         ],
         "Python": [
@@ -1799,6 +2703,1626 @@
                 "course_id": "PG_00045295",
                 "course_phrase": "c python javascript",
                 "similarity": 0.6005116701126099
+            },
+            {
+                "course_id": "PG_00045293",
+                "course_phrase": "korelacja uzycie pythona student potrafić",
+                "similarity": 0.5997934341430664
+            },
+            {
+                "course_id": "PG_00045293",
+                "course_phrase": "learning python packt",
+                "similarity": 0.5994248390197754
+            },
+            {
+                "course_id": "PG_00045293",
+                "course_phrase": "data analysis python ed",
+                "similarity": 0.5994213819503784
+            },
+            {
+                "course_id": "PG_00045295",
+                "course_phrase": "python uzupelniajaca",
+                "similarity": 0.5993024110794067
+            },
+            {
+                "course_id": "PG_00045293",
+                "course_phrase": "jezyk python celu",
+                "similarity": 0.5991721153259277
+            },
+            {
+                "course_id": "PG_00045293",
+                "course_phrase": "uzyciu pythona student",
+                "similarity": 0.5986505746841431
+            },
+            {
+                "course_id": "PG_00045310",
+                "course_phrase": "programy",
+                "similarity": 0.5986361503601074
+            },
+            {
+                "course_id": "PG_00045291",
+                "course_phrase": "programy",
+                "similarity": 0.5986361503601074
+            },
+            {
+                "course_id": "PG_00045290",
+                "course_phrase": "programy",
+                "similarity": 0.5986361503601074
+            },
+            {
+                "course_id": "PG_00053008",
+                "course_phrase": "programy",
+                "similarity": 0.5986361503601074
+            },
+            {
+                "course_id": "PG_00053095",
+                "course_phrase": "programy",
+                "similarity": 0.5986361503601074
+            },
+            {
+                "course_id": "PG_00045322",
+                "course_phrase": "programy",
+                "similarity": 0.5986361503601074
+            },
+            {
+                "course_id": "PG_00045374",
+                "course_phrase": "programy",
+                "similarity": 0.5986361503601074
+            },
+            {
+                "course_id": "PG_00045293",
+                "course_phrase": "python celu opracowania",
+                "similarity": 0.598384439945221
+            },
+            {
+                "course_id": "PG_00045293",
+                "course_phrase": "visualization in python",
+                "similarity": 0.5982797145843506
+            },
+            {
+                "course_id": "PG_00045293",
+                "course_phrase": "uzycie pythona przeprowadz",
+                "similarity": 0.5979459285736084
+            },
+            {
+                "course_id": "PG_00045293",
+                "course_phrase": "zbiorze danych przy uzyciu pythona",
+                "similarity": 0.5977615118026733
+            },
+            {
+                "course_id": "PG_00045298",
+                "course_phrase": "przeprowadzać badanie wykorzystujac python visual",
+                "similarity": 0.5976470708847046
+            },
+            {
+                "course_id": "PG_00045295",
+                "course_phrase": "python javascript",
+                "similarity": 0.5973431468009949
+            },
+            {
+                "course_id": "PG_00045295",
+                "course_phrase": "python javascript",
+                "similarity": 0.5973431468009949
+            },
+            {
+                "course_id": "PG_00045298",
+                "course_phrase": "python ed sebastopol oreilly",
+                "similarity": 0.597190260887146
+            },
+            {
+                "course_id": "PG_00045380",
+                "course_phrase": "python find",
+                "similarity": 0.5966448783874512
+            },
+            {
+                "course_id": "PG_00045380",
+                "course_phrase": "python find",
+                "similarity": 0.5966448783874512
+            },
+            {
+                "course_id": "PG_00045293",
+                "course_phrase": "jezyk python cel",
+                "similarity": 0.5964852571487427
+            },
+            {
+                "course_id": "PG_00045293",
+                "course_phrase": "pythona takie",
+                "similarity": 0.5964548587799072
+            },
+            {
+                "course_id": "PG_00045293",
+                "course_phrase": "pythona takie jak numpy",
+                "similarity": 0.596095085144043
+            },
+            {
+                "course_id": "PG_00045298",
+                "course_phrase": "statystyczne wykorzystujac python visual studio",
+                "similarity": 0.5960619449615479
+            },
+            {
+                "course_id": "PG_00045380",
+                "course_phrase": "python analyze data",
+                "similarity": 0.5952044725418091
+            },
+            {
+                "course_id": "PG_00045293",
+                "course_phrase": "python cel",
+                "similarity": 0.5951300859451294
+            },
+            {
+                "course_id": "PG_00045293",
+                "course_phrase": "python cel opracować raport",
+                "similarity": 0.5950178503990173
+            },
+            {
+                "course_id": "PG_00045293",
+                "course_phrase": "python media beyer h",
+                "similarity": 0.5925637483596802
+            },
+            {
+                "course_id": "PG_00045293",
+                "course_phrase": "python media beyer h",
+                "similarity": 0.5925637483596802
+            },
+            {
+                "course_id": "PG_00045295",
+                "course_phrase": "mark lutz programming python uzupelniajaca",
+                "similarity": 0.5913388729095459
+            },
+            {
+                "course_id": "PG_00045293",
+                "course_phrase": "ipython",
+                "similarity": 0.5908940434455872
+            },
+            {
+                "course_id": "PG_00045293",
+                "course_phrase": "ipython",
+                "similarity": 0.5908940434455872
+            },
+            {
+                "course_id": "PG_00045380",
+                "course_phrase": "wizualizacja dane uzyec jezyk python",
+                "similarity": 0.5907701253890991
+            },
+            {
+                "course_id": "PG_00045298",
+                "course_phrase": "statystyczne wykorzystujac python visual",
+                "similarity": 0.5904807448387146
+            },
+            {
+                "course_id": "PG_00045293",
+                "course_phrase": "python ed media",
+                "similarity": 0.589911162853241
+            },
+            {
+                "course_id": "PG_00045293",
+                "course_phrase": "python ed media",
+                "similarity": 0.589911162853241
+            },
+            {
+                "course_id": "PG_00045293",
+                "course_phrase": "python ed media",
+                "similarity": 0.589911162853241
+            },
+            {
+                "course_id": "PG_00045295",
+                "course_phrase": "lutz programming python uzupelniajaca lista",
+                "similarity": 0.5892766714096069
+            },
+            {
+                "course_id": "PG_00045295",
+                "course_phrase": "porownanie jezykie java jezyk python",
+                "similarity": 0.5885195732116699
+            },
+            {
+                "course_id": "PG_00045293",
+                "course_phrase": "python media beyer",
+                "similarity": 0.588176429271698
+            },
+            {
+                "course_id": "PG_00045293",
+                "course_phrase": "python media beyer",
+                "similarity": 0.588176429271698
+            },
+            {
+                "course_id": "PG_00045293",
+                "course_phrase": "uzyciu pythona",
+                "similarity": 0.5878640413284302
+            },
+            {
+                "course_id": "PG_00045293",
+                "course_phrase": "uzyciu pythona",
+                "similarity": 0.5878640413284302
+            },
+            {
+                "course_id": "PG_00045298",
+                "course_phrase": "r python chapman",
+                "similarity": 0.5876556634902954
+            },
+            {
+                "course_id": "PG_00045298",
+                "course_phrase": "r python chapman",
+                "similarity": 0.5876556634902954
+            },
+            {
+                "course_id": "PG_00045293",
+                "course_phrase": "danych przy uzyciu pythona przeprowadz",
+                "similarity": 0.5876361131668091
+            },
+            {
+                "course_id": "PG_00045293",
+                "course_phrase": "python data analysis data",
+                "similarity": 0.5871273279190063
+            },
+            {
+                "course_id": "PG_00045293",
+                "course_phrase": "pythonie wykorzystujac",
+                "similarity": 0.5864051580429077
+            },
+            {
+                "course_id": "PG_00045293",
+                "course_phrase": "uzycie pythona przeprowadz korelacja",
+                "similarity": 0.5853927135467529
+            },
+            {
+                "course_id": "PG_00045380",
+                "course_phrase": "python data mining",
+                "similarity": 0.5853001475334167
+            },
+            {
+                "course_id": "PG_00045380",
+                "course_phrase": "python data mining",
+                "similarity": 0.5853001475334167
+            },
+            {
+                "course_id": "PG_00045380",
+                "course_phrase": "python data mining",
+                "similarity": 0.585300087928772
+            },
+            {
+                "course_id": "PG_00045380",
+                "course_phrase": "python data mining",
+                "similarity": 0.585300087928772
+            },
+            {
+                "course_id": "PG_00045295",
+                "course_phrase": "porownanie jezykiem java jezyk python",
+                "similarity": 0.5849106311798096
+            },
+            {
+                "course_id": "PG_00045380",
+                "course_phrase": "python przygotowywać dane",
+                "similarity": 0.5848857164382935
+            },
+            {
+                "course_id": "PG_00045293",
+                "course_phrase": "scienka learning python",
+                "similarity": 0.583759069442749
+            },
+            {
+                "course_id": "PG_00045293",
+                "course_phrase": "narzedzie biblioteka pythona numpy",
+                "similarity": 0.5819861888885498
+            },
+            {
+                "course_id": "PG_00045298",
+                "course_phrase": "data scientists r python chapman",
+                "similarity": 0.5818634033203125
+            },
+            {
+                "course_id": "PG_00045298",
+                "course_phrase": "data scientists r python chapman",
+                "similarity": 0.5818634033203125
+            },
+            {
+                "course_id": "PG_00045295",
+                "course_phrase": "jezykiem java jezyk python",
+                "similarity": 0.5813645124435425
+            },
+            {
+                "course_id": "PG_00045293",
+                "course_phrase": "przy uzyciu pythona student",
+                "similarity": 0.5805356502532959
+            },
+            {
+                "course_id": "PG_00045329",
+                "course_phrase": "programs",
+                "similarity": 0.5804932117462158
+            },
+            {
+                "course_id": "PG_00045295",
+                "course_phrase": "python przedstawiciel jezykow",
+                "similarity": 0.580458402633667
+            },
+            {
+                "course_id": "PG_00045298",
+                "course_phrase": "python ed sebastopol ca",
+                "similarity": 0.5779684782028198
+            },
+            {
+                "course_id": "PG_00045293",
+                "course_phrase": "uzycie pythona student potrafić efektywnie",
+                "similarity": 0.5779432058334351
+            },
+            {
+                "course_id": "PG_00045380",
+                "course_phrase": "lektur valentina porcu python data",
+                "similarity": 0.577510416507721
+            },
+            {
+                "course_id": "PG_00045380",
+                "course_phrase": "valentina porc python data",
+                "similarity": 0.5771304368972778
+            },
+            {
+                "course_id": "PG_00045293",
+                "course_phrase": "wartosci zbiór dane uzycie pythona",
+                "similarity": 0.5770183801651001
+            },
+            {
+                "course_id": "PG_00045295",
+                "course_phrase": "lutz programming python uzupelniajaca",
+                "similarity": 0.5765175223350525
+            },
+            {
+                "course_id": "PG_00045293",
+                "course_phrase": "pythona student potrafi efektywnie",
+                "similarity": 0.5760983228683472
+            },
+            {
+                "course_id": "PG_00045380",
+                "course_phrase": "python harness power python",
+                "similarity": 0.574843168258667
+            },
+            {
+                "course_id": "PG_00045380",
+                "course_phrase": "python harness power python",
+                "similarity": 0.574843168258667
+            },
+            {
+                "course_id": "PG_00045380",
+                "course_phrase": "wprowadzić jezyk python przygotowywać dane",
+                "similarity": 0.5743554830551147
+            },
+            {
+                "course_id": "PG_00045293",
+                "course_phrase": "uzyec pythona",
+                "similarity": 0.5735012292861938
+            },
+            {
+                "course_id": "PG_00045293",
+                "course_phrase": "python podstawowe operacje pythonie",
+                "similarity": 0.5734395980834961
+            },
+            {
+                "course_id": "PG_00045295",
+                "course_phrase": "jezykie java jezyk python",
+                "similarity": 0.5734273195266724
+            },
+            {
+                "course_id": "PG_00045295",
+                "course_phrase": "java c python javascript",
+                "similarity": 0.5730156898498535
+            },
+            {
+                "course_id": "PG_00045295",
+                "course_phrase": "java c python javascript",
+                "similarity": 0.5730156898498535
+            },
+            {
+                "course_id": "PG_00045295",
+                "course_phrase": "python uzupelniajaca lista",
+                "similarity": 0.5727820992469788
+            },
+            {
+                "course_id": "PG_00045293",
+                "course_phrase": "pythona przeprowadz korelacja",
+                "similarity": 0.5727217793464661
+            },
+            {
+                "course_id": "PG_00045293",
+                "course_phrase": "rozumieć narzedzie biblioteka pythona numpy",
+                "similarity": 0.5726573467254639
+            },
+            {
+                "course_id": "PG_00045380",
+                "course_phrase": "jezyk python przygotowywać dane",
+                "similarity": 0.5722463130950928
+            },
+            {
+                "course_id": "PG_00045293",
+                "course_phrase": "python ed media vanderplas python",
+                "similarity": 0.5722298622131348
+            },
+            {
+                "course_id": "PG_00045380",
+                "course_phrase": "mining python harness",
+                "similarity": 0.5718011856079102
+            },
+            {
+                "course_id": "PG_00045380",
+                "course_phrase": "mining python harness",
+                "similarity": 0.5718011856079102
+            },
+            {
+                "course_id": "PG_00045293",
+                "course_phrase": "scipy analiza",
+                "similarity": 0.5717154145240784
+            },
+            {
+                "course_id": "PG_00045295",
+                "course_phrase": "python przedstawiciel",
+                "similarity": 0.5716820955276489
+            },
+            {
+                "course_id": "PG_00045295",
+                "course_phrase": "programming python lista lektura",
+                "similarity": 0.5707489848136902
+            },
+            {
+                "course_id": "PG_00045380",
+                "course_phrase": "uzyec jezyk python",
+                "similarity": 0.5705498456954956
+            },
+            {
+                "course_id": "PG_00045293",
+                "course_phrase": "uzyciu pythona student potrafi",
+                "similarity": 0.5684888362884521
+            },
+            {
+                "course_id": "PG_00045298",
+                "course_phrase": "badania statystyczne wykorzystujac python visual",
+                "similarity": 0.5680689811706543
+            },
+            {
+                "course_id": "PG_00045302",
+                "course_phrase": "software",
+                "similarity": 0.5672318339347839
+            },
+            {
+                "course_id": "PG_00045302",
+                "course_phrase": "software",
+                "similarity": 0.5672317147254944
+            },
+            {
+                "course_id": "PG_00045302",
+                "course_phrase": "software",
+                "similarity": 0.5672317147254944
+            },
+            {
+                "course_id": "PG_00045302",
+                "course_phrase": "software",
+                "similarity": 0.5672317147254944
+            },
+            {
+                "course_id": "PG_00053008",
+                "course_phrase": "software",
+                "similarity": 0.5672317147254944
+            },
+            {
+                "course_id": "PG_00045295",
+                "course_phrase": "python jako",
+                "similarity": 0.567010223865509
+            },
+            {
+                "course_id": "PG_00045293",
+                "course_phrase": "wykresow pudelkowych tabel pythonie",
+                "similarity": 0.566999077796936
+            },
+            {
+                "course_id": "PG_00045293",
+                "course_phrase": "biblioteka pythona numpy",
+                "similarity": 0.5666018724441528
+            },
+            {
+                "course_id": "PG_00045295",
+                "course_phrase": "programming python lista lektura john",
+                "similarity": 0.5661664605140686
+            },
+            {
+                "course_id": "PG_00045293",
+                "course_phrase": "uzyciu pythona przeprowadz analize",
+                "similarity": 0.5655640363693237
+            },
+            {
+                "course_id": "PG_00045293",
+                "course_phrase": "pythona przeprowadz",
+                "similarity": 0.5654342174530029
+            },
+            {
+                "course_id": "PG_00045293",
+                "course_phrase": "pythona przeprowadz",
+                "similarity": 0.5654342174530029
+            },
+            {
+                "course_id": "PG_00045380",
+                "course_phrase": "valentina porcu python",
+                "similarity": 0.5653545260429382
+            },
+            {
+                "course_id": "PG_00045293",
+                "course_phrase": "pythona student potrafi efektywnie prezentowac",
+                "similarity": 0.5653075575828552
+            },
+            {
+                "course_id": "PG_00045293",
+                "course_phrase": "pythonie czesc",
+                "similarity": 0.5652828216552734
+            },
+            {
+                "course_id": "PG_00045293",
+                "course_phrase": "pythonie czesc",
+                "similarity": 0.5652828216552734
+            },
+            {
+                "course_id": "PG_00045293",
+                "course_phrase": "pythona student potrafić efektywnie prezentowac",
+                "similarity": 0.5649678111076355
+            },
+            {
+                "course_id": "PG_00045293",
+                "course_phrase": "scratch principle python ed",
+                "similarity": 0.5646475553512573
+            },
+            {
+                "course_id": "PG_00045298",
+                "course_phrase": "scratch principle python ed",
+                "similarity": 0.5646475553512573
+            },
+            {
+                "course_id": "PG_00045380",
+                "course_phrase": "data mining python harness",
+                "similarity": 0.5630472898483276
+            },
+            {
+                "course_id": "PG_00045380",
+                "course_phrase": "squire mastering data mining python",
+                "similarity": 0.5629881620407104
+            },
+            {
+                "course_id": "PG_00045380",
+                "course_phrase": "squire mastering data mining python",
+                "similarity": 0.5629881620407104
+            },
+            {
+                "course_id": "PG_00045293",
+                "course_phrase": "pythona student potrafić efektywnie",
+                "similarity": 0.5627486109733582
+            },
+            {
+                "course_id": "PG_00045295",
+                "course_phrase": "programowanie java c python javascript",
+                "similarity": 0.5627199411392212
+            },
+            {
+                "course_id": "PG_00045293",
+                "course_phrase": "vanderplas python",
+                "similarity": 0.5623705387115479
+            },
+            {
+                "course_id": "PG_00045293",
+                "course_phrase": "numpy ipython",
+                "similarity": 0.5621979236602783
+            },
+            {
+                "course_id": "PG_00045293",
+                "course_phrase": "przy uzyciu pythona",
+                "similarity": 0.5621522665023804
+            },
+            {
+                "course_id": "PG_00045293",
+                "course_phrase": "przy uzyciu pythona",
+                "similarity": 0.5621522665023804
+            },
+            {
+                "course_id": "PG_00045380",
+                "course_phrase": "learning data mining python",
+                "similarity": 0.5620297789573669
+            },
+            {
+                "course_id": "PG_00045380",
+                "course_phrase": "nathan python data",
+                "similarity": 0.5616222620010376
+            },
+            {
+                "course_id": "PG_00045380",
+                "course_phrase": "nathan python data",
+                "similarity": 0.561622142791748
+            },
+            {
+                "course_id": "PG_00045298",
+                "course_phrase": "python ed sebastopol",
+                "similarity": 0.5610356330871582
+            },
+            {
+                "course_id": "PG_00045298",
+                "course_phrase": "python ed sebastopol",
+                "similarity": 0.5610356330871582
+            },
+            {
+                "course_id": "PG_00045295",
+                "course_phrase": "python jako przedstawiciel skryptowych jezykow",
+                "similarity": 0.5605278015136719
+            },
+            {
+                "course_id": "PG_00045293",
+                "course_phrase": "wykresow pudelkowych tabel pythonie wykorzystujac",
+                "similarity": 0.560352087020874
+            },
+            {
+                "course_id": "PG_00045295",
+                "course_phrase": "mark lutz programming python lista",
+                "similarity": 0.5600466728210449
+            },
+            {
+                "course_id": "PG_00045293",
+                "course_phrase": "data science scratch principle python",
+                "similarity": 0.5600118041038513
+            },
+            {
+                "course_id": "PG_00045298",
+                "course_phrase": "data science scratch principle python",
+                "similarity": 0.5600118041038513
+            },
+            {
+                "course_id": "PG_00045293",
+                "course_phrase": "numpy ipython ed",
+                "similarity": 0.5594818592071533
+            },
+            {
+                "course_id": "PG_00045380",
+                "course_phrase": "mastering data mining python",
+                "similarity": 0.5591643452644348
+            },
+            {
+                "course_id": "PG_00045380",
+                "course_phrase": "mastering data mining python",
+                "similarity": 0.5591643452644348
+            },
+            {
+                "course_id": "PG_00045380",
+                "course_phrase": "python data mining quick",
+                "similarity": 0.5589398145675659
+            },
+            {
+                "course_id": "PG_00045380",
+                "course_phrase": "python data mining quick",
+                "similarity": 0.5589398145675659
+            },
+            {
+                "course_id": "PG_00045380",
+                "course_phrase": "python data mining quick",
+                "similarity": 0.5589398145675659
+            },
+            {
+                "course_id": "PG_00045380",
+                "course_phrase": "python data mining quick",
+                "similarity": 0.5589398145675659
+            },
+            {
+                "course_id": "PG_00045295",
+                "course_phrase": "python uzupelniajaca lista lektur",
+                "similarity": 0.5570693016052246
+            },
+            {
+                "course_id": "PG_00045293",
+                "course_phrase": "uzyciu pythona student potrafi efektywnie",
+                "similarity": 0.5566365718841553
+            },
+            {
+                "course_id": "PG_00045293",
+                "course_phrase": "przy uzyciu pythona przeprowadz analize",
+                "similarity": 0.556522011756897
+            },
+            {
+                "course_id": "PG_00045293",
+                "course_phrase": "ed media vanderplas python",
+                "similarity": 0.5561432242393494
+            },
+            {
+                "course_id": "PG_00045293",
+                "course_phrase": "tabel python",
+                "similarity": 0.5559985041618347
+            },
+            {
+                "course_id": "PG_00045293",
+                "course_phrase": "przy uzyciu pythona student potrafi",
+                "similarity": 0.5554192066192627
+            },
+            {
+                "course_id": "PG_00045293",
+                "course_phrase": "scratch principle python",
+                "similarity": 0.5548962354660034
+            },
+            {
+                "course_id": "PG_00045298",
+                "course_phrase": "scratch principle python",
+                "similarity": 0.5548962354660034
+            },
+            {
+                "course_id": "PG_00045295",
+                "course_phrase": "jezyk python przedstawiciel jezykow",
+                "similarity": 0.5547671318054199
+            },
+            {
+                "course_id": "PG_00045295",
+                "course_phrase": "jezyk python jako przedstawiciel",
+                "similarity": 0.5546684265136719
+            },
+            {
+                "course_id": "PG_00045295",
+                "course_phrase": "c python javascript ocena umiejetnosci",
+                "similarity": 0.5545949935913086
+            },
+            {
+                "course_id": "PG_00045295",
+                "course_phrase": "c python javascript ocena umiejetnosci",
+                "similarity": 0.5545949935913086
+            },
+            {
+                "course_id": "PG_00045293",
+                "course_phrase": "numpy",
+                "similarity": 0.5541951656341553
+            },
+            {
+                "course_id": "PG_00045293",
+                "course_phrase": "numpy",
+                "similarity": 0.5541951656341553
+            },
+            {
+                "course_id": "PG_00045293",
+                "course_phrase": "numpy",
+                "similarity": 0.5541951656341553
+            },
+            {
+                "course_id": "PG_00045380",
+                "course_phrase": "dane uzyec jezyk python",
+                "similarity": 0.5534905195236206
+            },
+            {
+                "course_id": "PG_00045293",
+                "course_phrase": "uzycie pythona przeprowadz korelacja dwa",
+                "similarity": 0.5534866452217102
+            },
+            {
+                "course_id": "PG_00045295",
+                "course_phrase": "jezyk python jako przedstawiciel skryptowych",
+                "similarity": 0.5523754358291626
+            },
+            {
+                "course_id": "PG_00045295",
+                "course_phrase": "jezyk python jako",
+                "similarity": 0.5519090294837952
+            },
+            {
+                "course_id": "PG_00045293",
+                "course_phrase": "science scratch principle python ed",
+                "similarity": 0.5512096881866455
+            },
+            {
+                "course_id": "PG_00045298",
+                "course_phrase": "science scratch principle python ed",
+                "similarity": 0.5512096881866455
+            },
+            {
+                "course_id": "PG_00045293",
+                "course_phrase": "j python data",
+                "similarity": 0.5510002374649048
+            },
+            {
+                "course_id": "PG_00045293",
+                "course_phrase": "python podstawowe operacje pythonie czesc",
+                "similarity": 0.5508236289024353
+            },
+            {
+                "course_id": "PG_00045293",
+                "course_phrase": "uzyciu pythona przeprowadz",
+                "similarity": 0.549720287322998
+            },
+            {
+                "course_id": "PG_00045293",
+                "course_phrase": "biblioteki pythona",
+                "similarity": 0.5491873621940613
+            },
+            {
+                "course_id": "PG_00045293",
+                "course_phrase": "zbiór dane uzycie pythona",
+                "similarity": 0.5484488606452942
+            },
+            {
+                "course_id": "PG_00045293",
+                "course_phrase": "ed media vanderplas j python",
+                "similarity": 0.5466267466545105
+            },
+            {
+                "course_id": "PG_00045380",
+                "course_phrase": "harness power python",
+                "similarity": 0.5460765361785889
+            },
+            {
+                "course_id": "PG_00045380",
+                "course_phrase": "harness power python",
+                "similarity": 0.5460765361785889
+            },
+            {
+                "course_id": "PG_00045293",
+                "course_phrase": "wprowadzenie jezyka python podstawowe",
+                "similarity": 0.5458283424377441
+            },
+            {
+                "course_id": "PG_00045295",
+                "course_phrase": "java jezyk python jako",
+                "similarity": 0.5450042486190796
+            },
+            {
+                "course_id": "PG_00045298",
+                "course_phrase": "principle python ed sebastopol oreilly",
+                "similarity": 0.5444297790527344
+            },
+            {
+                "course_id": "PG_00045380",
+                "course_phrase": "mining python harness power python",
+                "similarity": 0.5441253185272217
+            },
+            {
+                "course_id": "PG_00045380",
+                "course_phrase": "mining python harness power python",
+                "similarity": 0.5441253185272217
+            },
+            {
+                "course_id": "PG_00045293",
+                "course_phrase": "python media beyer h laubacher",
+                "similarity": 0.5432870388031006
+            },
+            {
+                "course_id": "PG_00045293",
+                "course_phrase": "python media beyer h laubacher",
+                "similarity": 0.5432870388031006
+            },
+            {
+                "course_id": "PG_00045293",
+                "course_phrase": "na przykład histogramow wykresowa tabel python",
+                "similarity": 0.5432196259498596
+            },
+            {
+                "course_id": "PG_00045293",
+                "course_phrase": "pythona przeprowadz korelacja dwa zbiór",
+                "similarity": 0.541535496711731
+            },
+            {
+                "course_id": "PG_00045293",
+                "course_phrase": "science scratch principle python",
+                "similarity": 0.5414561033248901
+            },
+            {
+                "course_id": "PG_00045298",
+                "course_phrase": "science scratch principle python",
+                "similarity": 0.5414561033248901
+            },
+            {
+                "course_id": "PG_00045298",
+                "course_phrase": "scientists r python chapman",
+                "similarity": 0.5411311388015747
+            },
+            {
+                "course_id": "PG_00045298",
+                "course_phrase": "scientists r python chapman",
+                "similarity": 0.5411311388015747
+            },
+            {
+                "course_id": "PG_00045298",
+                "course_phrase": "statistics data scientists r python",
+                "similarity": 0.5400652885437012
+            },
+            {
+                "course_id": "PG_00045298",
+                "course_phrase": "statistics data scientists r python",
+                "similarity": 0.5400652885437012
+            },
+            {
+                "course_id": "PG_00045293",
+                "course_phrase": "mckinney python datum",
+                "similarity": 0.5398426055908203
+            },
+            {
+                "course_id": "PG_00045293",
+                "course_phrase": "media mckinney python",
+                "similarity": 0.5397957563400269
+            },
+            {
+                "course_id": "PG_00045293",
+                "course_phrase": "media mckinney python",
+                "similarity": 0.5397957563400269
+            },
+            {
+                "course_id": "PG_00045322",
+                "course_phrase": "programy srodowisku",
+                "similarity": 0.5397111177444458
+            },
+            {
+                "course_id": "PG_00045273",
+                "course_phrase": "programowych",
+                "similarity": 0.539011538028717
+            },
+            {
+                "course_id": "PG_00045380",
+                "course_phrase": "learning data mining python harness",
+                "similarity": 0.5390111207962036
+            },
+            {
+                "course_id": "PG_00045293",
+                "course_phrase": "analysis visualization in python",
+                "similarity": 0.5390101075172424
+            },
+            {
+                "course_id": "PG_00045293",
+                "course_phrase": "jezyk operacja pythonie czesc analiza",
+                "similarity": 0.5381488800048828
+            },
+            {
+                "course_id": "PG_00045293",
+                "course_phrase": "pythona przeprowadz analize korelacji miedzy",
+                "similarity": 0.537600040435791
+            },
+            {
+                "course_id": "PG_00045295",
+                "course_phrase": "jezyk python przedstawiciel",
+                "similarity": 0.537472128868103
+            },
+            {
+                "course_id": "PG_00045380",
+                "course_phrase": "valentina porc python data mining",
+                "similarity": 0.5366567373275757
+            },
+            {
+                "course_id": "PG_00045293",
+                "course_phrase": "pythona takie jak",
+                "similarity": 0.5363432765007019
+            },
+            {
+                "course_id": "PG_00045293",
+                "course_phrase": "histogramow wykresow pudelkowych tabel pythonie",
+                "similarity": 0.53515625
+            },
+            {
+                "course_id": "PG_00045293",
+                "course_phrase": "przy uzyciu pythona przeprowadz",
+                "similarity": 0.5347002744674683
+            },
+            {
+                "course_id": "PG_00045380",
+                "course_phrase": "valentina porcu python data",
+                "similarity": 0.5344014167785645
+            },
+            {
+                "course_id": "PG_00045295",
+                "course_phrase": "jezykie java jezyk python przedstawiciel",
+                "similarity": 0.5341328382492065
+            },
+            {
+                "course_id": "PG_00045322",
+                "course_phrase": "programy srodowisku serwera",
+                "similarity": 0.5334286689758301
+            },
+            {
+                "course_id": "PG_00053095",
+                "course_phrase": "algorytmy program jezyk c wnt",
+                "similarity": 0.5329902768135071
+            },
+            {
+                "course_id": "PG_00045293",
+                "course_phrase": "scratch first principles python",
+                "similarity": 0.5329557657241821
+            },
+            {
+                "course_id": "PG_00045298",
+                "course_phrase": "scratch first principles python",
+                "similarity": 0.5329557657241821
+            },
+            {
+                "course_id": "PG_00045380",
+                "course_phrase": "nathan python data mining",
+                "similarity": 0.5329068899154663
+            },
+            {
+                "course_id": "PG_00045380",
+                "course_phrase": "nathan python data mining",
+                "similarity": 0.5329068899154663
+            },
+            {
+                "course_id": "PG_00045380",
+                "course_phrase": "python data mining quick start",
+                "similarity": 0.532770037651062
+            },
+            {
+                "course_id": "PG_00045380",
+                "course_phrase": "python data mining quick start",
+                "similarity": 0.532770037651062
+            },
+            {
+                "course_id": "PG_00045293",
+                "course_phrase": "pythona przeprowadz korelacja dwa",
+                "similarity": 0.5326892137527466
+            },
+            {
+                "course_id": "PG_00045380",
+                "course_phrase": "lektura valentina porc python data",
+                "similarity": 0.5322054624557495
+            },
+            {
+                "course_id": "PG_00045380",
+                "course_phrase": "python przygotowywać dane wizualizacja dane",
+                "similarity": 0.5316194295883179
+            },
+            {
+                "course_id": "PG_00045293",
+                "course_phrase": "visualization in python media",
+                "similarity": 0.529698371887207
+            },
+            {
+                "course_id": "PG_00045293",
+                "course_phrase": "operacje pythonie czesc analiza",
+                "similarity": 0.5295363664627075
+            },
+            {
+                "course_id": "PG_00045293",
+                "course_phrase": "pudelkowych tabel pythonie wykorzystujac",
+                "similarity": 0.5295193791389465
+            },
+            {
+                "course_id": "PG_00045293",
+                "course_phrase": "jezyka python podstawowe operacje pythonie",
+                "similarity": 0.5292932987213135
+            },
+            {
+                "course_id": "PG_00045293",
+                "course_phrase": "pythona przeprowadz analize",
+                "similarity": 0.5290286540985107
+            },
+            {
+                "course_id": "PG_00045293",
+                "course_phrase": "danych uzyciem pythona bibliotek",
+                "similarity": 0.5280225872993469
+            },
+            {
+                "course_id": "PG_00045298",
+                "course_phrase": "badanie wykorzystujac python visual studio",
+                "similarity": 0.5275822877883911
+            },
+            {
+                "course_id": "PG_00045293",
+                "course_phrase": "scratch first principles python ed",
+                "similarity": 0.5271563529968262
+            },
+            {
+                "course_id": "PG_00045298",
+                "course_phrase": "scratch first principles python ed",
+                "similarity": 0.5271563529968262
+            },
+            {
+                "course_id": "PG_00045295",
+                "course_phrase": "programowania java c python javascript",
+                "similarity": 0.5269564390182495
+            },
+            {
+                "course_id": "PG_00045295",
+                "course_phrase": "python lista lektura john hunt",
+                "similarity": 0.5266357064247131
+            },
+            {
+                "course_id": "PG_00045293",
+                "course_phrase": "principles python ed media",
+                "similarity": 0.5266100764274597
+            },
+            {
+                "course_id": "PG_00045293",
+                "course_phrase": "uzyciu pythona przeprowadz analize korelacji",
+                "similarity": 0.5264991521835327
+            },
+            {
+                "course_id": "PG_00045293",
+                "course_phrase": "datum ed media mckinney python",
+                "similarity": 0.5262417793273926
+            },
+            {
+                "course_id": "PG_00045293",
+                "course_phrase": "wykresowa tabel python wykorzystujac",
+                "similarity": 0.525842547416687
+            },
+            {
+                "course_id": "PG_00045293",
+                "course_phrase": "analysis visualization python",
+                "similarity": 0.5257657170295715
+            },
+            {
+                "course_id": "PG_00045320",
+                "course_phrase": "gis skrypt jezyk python",
+                "similarity": 0.5255951285362244
+            },
+            {
+                "course_id": "PG_00045293",
+                "course_phrase": "scipy wykorzystywane",
+                "similarity": 0.5254890322685242
+            },
+            {
+                "course_id": "PG_00045293",
+                "course_phrase": "o danych uzyciem pythona bibliotek",
+                "similarity": 0.5250928401947021
+            },
+            {
+                "course_id": "PG_00045293",
+                "course_phrase": "media vanderplas python",
+                "similarity": 0.5249404311180115
+            },
+            {
+                "course_id": "PG_00053095",
+                "course_phrase": "algorytmy program jezyk c",
+                "similarity": 0.5248512029647827
+            },
+            {
+                "course_id": "PG_00045298",
+                "course_phrase": "badanie wykorzystujac python visual",
+                "similarity": 0.5246937274932861
+            },
+            {
+                "course_id": "PG_00045293",
+                "course_phrase": "tabel pythonie wykorzystujac",
+                "similarity": 0.5237997770309448
+            },
+            {
+                "course_id": "PG_00045293",
+                "course_phrase": "tabel pythonie",
+                "similarity": 0.5237947702407837
+            },
+            {
+                "course_id": "PG_00045293",
+                "course_phrase": "scienka learning python packt",
+                "similarity": 0.5237844586372375
+            },
+            {
+                "course_id": "PG_00045293",
+                "course_phrase": "pythonie czesc analiza",
+                "similarity": 0.5235657691955566
+            },
+            {
+                "course_id": "PG_00045293",
+                "course_phrase": "pythonie czesc analiza",
+                "similarity": 0.5235657691955566
+            },
+            {
+                "course_id": "PG_00045320",
+                "course_phrase": "skrypt jezyk python",
+                "similarity": 0.5230460166931152
+            },
+            {
+                "course_id": "PG_00045293",
+                "course_phrase": "pudelkowych tabel pythonie",
+                "similarity": 0.5226180553436279
+            },
+            {
+                "course_id": "PG_00045293",
+                "course_phrase": "principle python ed media",
+                "similarity": 0.5226151943206787
+            },
+            {
+                "course_id": "PG_00045295",
+                "course_phrase": "jezykiem java jezyk python jako",
+                "similarity": 0.5217357873916626
+            },
+            {
+                "course_id": "PG_00045293",
+                "course_phrase": "data analysis visualization in python",
+                "similarity": 0.5216377973556519
+            },
+            {
+                "course_id": "PG_00045291",
+                "course_phrase": "scripting",
+                "similarity": 0.5211999416351318
+            },
+            {
+                "course_id": "PG_00045291",
+                "course_phrase": "scripting",
+                "similarity": 0.5211999416351318
+            },
+            {
+                "course_id": "PG_00045293",
+                "course_phrase": "mckinney python data",
+                "similarity": 0.5207053422927856
+            },
+            {
+                "course_id": "PG_00045293",
+                "course_phrase": "jezyka python podstawowe",
+                "similarity": 0.520524799823761
+            },
+            {
+                "course_id": "PG_00045298",
+                "course_phrase": "python chapman hall",
+                "similarity": 0.5202632546424866
+            },
+            {
+                "course_id": "PG_00045298",
+                "course_phrase": "python chapman hall",
+                "similarity": 0.5202632546424866
+            },
+            {
+                "course_id": "PG_00045293",
+                "course_phrase": "ed media mckinney python",
+                "similarity": 0.5201263427734375
+            },
+            {
+                "course_id": "PG_00045293",
+                "course_phrase": "ed media mckinney python",
+                "similarity": 0.5201263427734375
+            },
+            {
+                "course_id": "PG_00045298",
+                "course_phrase": "principles python ed sebastopol ca",
+                "similarity": 0.5200693607330322
+            },
+            {
+                "course_id": "PG_00045293",
+                "course_phrase": "wykresowa tabel python",
+                "similarity": 0.5197106599807739
+            },
+            {
+                "course_id": "PG_00045320",
+                "course_phrase": "skrypty jezyku python",
+                "similarity": 0.5195815563201904
+            },
+            {
+                "course_id": "PG_00045380",
+                "course_phrase": "python harness power python analyze",
+                "similarity": 0.5190932750701904
+            },
+            {
+                "course_id": "PG_00045380",
+                "course_phrase": "python harness power python analyze",
+                "similarity": 0.5190932750701904
+            },
+            {
+                "course_id": "PG_00045320",
+                "course_phrase": "gis skrypty jezyku python",
+                "similarity": 0.5189231634140015
+            },
+            {
+                "course_id": "PG_00045295",
+                "course_phrase": "java jezyk python jako przedstawiciel",
+                "similarity": 0.5180858373641968
+            },
+            {
+                "course_id": "PG_00045380",
+                "course_phrase": "porc python data",
+                "similarity": 0.5180115699768066
+            },
+            {
+                "course_id": "PG_00045380",
+                "course_phrase": "mining python harness power",
+                "similarity": 0.5178648233413696
+            },
+            {
+                "course_id": "PG_00045380",
+                "course_phrase": "mining python harness power",
+                "similarity": 0.5178648233413696
+            },
+            {
+                "course_id": "PG_00045295",
+                "course_phrase": "lutz programming python lista lektura",
+                "similarity": 0.5175184011459351
+            },
+            {
+                "course_id": "PG_00053006",
+                "course_phrase": "listy pytan",
+                "similarity": 0.5170553922653198
+            },
+            {
+                "course_id": "PG_00045293",
+                "course_phrase": "analysis python ed media",
+                "similarity": 0.5169143676757812
+            },
+            {
+                "course_id": "PG_00045293",
+                "course_phrase": "wprowadzenie jezyka python podstawowe operacje",
+                "similarity": 0.5167073011398315
+            },
+            {
+                "course_id": "PG_00045293",
+                "course_phrase": "analysis visualization in python media",
+                "similarity": 0.5166068077087402
+            },
+            {
+                "course_id": "PG_00045298",
+                "course_phrase": "wykorzystujac python visual",
+                "similarity": 0.5165104866027832
+            },
+            {
+                "course_id": "PG_00045298",
+                "course_phrase": "wykorzystujac python visual",
+                "similarity": 0.5165104866027832
+            },
+            {
+                "course_id": "PG_00045295",
+                "course_phrase": "python uzupelniajaca lista lektur john",
+                "similarity": 0.5161464214324951
+            },
+            {
+                "course_id": "PG_00045293",
+                "course_phrase": "data ed media mckinney python",
+                "similarity": 0.5160688161849976
+            },
+            {
+                "course_id": "PG_00045298",
+                "course_phrase": "principle python ed sebastopol",
+                "similarity": 0.5158663988113403
+            },
+            {
+                "course_id": "PG_00045380",
+                "course_phrase": "python analyze data insightful",
+                "similarity": 0.5153816342353821
+            },
+            {
+                "course_id": "PG_00053095",
+                "course_phrase": "algorytmy program",
+                "similarity": 0.5152378082275391
+            },
+            {
+                "course_id": "PG_00045320",
+                "course_phrase": "import",
+                "similarity": 0.5150721669197083
+            },
+            {
+                "course_id": "PG_00045320",
+                "course_phrase": "import",
+                "similarity": 0.5150721669197083
+            },
+            {
+                "course_id": "PG_00045293",
+                "course_phrase": "python ed media vanderplas j",
+                "similarity": 0.5149099826812744
+            },
+            {
+                "course_id": "PG_00045293",
+                "course_phrase": "visualization python media",
+                "similarity": 0.5138959288597107
+            },
+            {
+                "course_id": "PG_00045293",
+                "course_phrase": "uzyciem pythona bibliotek",
+                "similarity": 0.5130888223648071
+            },
+            {
+                "course_id": "PG_00045293",
+                "course_phrase": "wykresowa tabel python wykorzystujac biblioteka",
+                "similarity": 0.512147843837738
+            },
+            {
+                "course_id": "PG_00045380",
+                "course_phrase": "lista lektur greeneltch nathan python",
+                "similarity": 0.5119460821151733
+            },
+            {
+                "course_id": "PG_00045325",
+                "course_phrase": "computing",
+                "similarity": 0.5118961930274963
+            },
+            {
+                "course_id": "PG_00045325",
+                "course_phrase": "computing",
+                "similarity": 0.5118961930274963
+            },
+            {
+                "course_id": "PG_00045371",
+                "course_phrase": "computing",
+                "similarity": 0.5118961930274963
+            },
+            {
+                "course_id": "PG_00045325",
+                "course_phrase": "computing",
+                "similarity": 0.5118961334228516
+            },
+            {
+                "course_id": "PG_00045325",
+                "course_phrase": "computing",
+                "similarity": 0.5118961334228516
+            },
+            {
+                "course_id": "PG_00045371",
+                "course_phrase": "computing",
+                "similarity": 0.5118961334228516
+            },
+            {
+                "course_id": "PG_00045298",
+                "course_phrase": "r python chapman hall",
+                "similarity": 0.5116010308265686
+            },
+            {
+                "course_id": "PG_00045298",
+                "course_phrase": "r python chapman hall",
+                "similarity": 0.5116010308265686
+            },
+            {
+                "course_id": "PG_00045298",
+                "course_phrase": "wykorzystujac python visual studio",
+                "similarity": 0.511566698551178
+            },
+            {
+                "course_id": "PG_00045298",
+                "course_phrase": "wykorzystujac python visual studio",
+                "similarity": 0.511566698551178
+            },
+            {
+                "course_id": "PG_00045293",
+                "course_phrase": "zbiór dane uzycie pythona przeprowadz",
+                "similarity": 0.5115615129470825
+            },
+            {
+                "course_id": "PG_00045293",
+                "course_phrase": "analysis visualization python media",
+                "similarity": 0.5108559131622314
+            },
+            {
+                "course_id": "PG_00045298",
+                "course_phrase": "python ed sebastopol oreilly media",
+                "similarity": 0.5104178786277771
+            },
+            {
+                "course_id": "PG_00053095",
+                "course_phrase": "algorytmy program jezyk",
+                "similarity": 0.5099188089370728
+            },
+            {
+                "course_id": "PG_00045295",
+                "course_phrase": "python lista lektura",
+                "similarity": 0.5096523761749268
+            },
+            {
+                "course_id": "PG_00045293",
+                "course_phrase": "jezyka python podstawowe operacje",
+                "similarity": 0.5089621543884277
+            },
+            {
+                "course_id": "PG_00045298",
+                "course_phrase": "wykorzystujac python visual studio code",
+                "similarity": 0.5089296102523804
+            },
+            {
+                "course_id": "PG_00045298",
+                "course_phrase": "wykorzystujac python visual studio code",
+                "similarity": 0.5089296102523804
+            },
+            {
+                "course_id": "PG_00045293",
+                "course_phrase": "python podstawowe operacje",
+                "similarity": 0.5085534453392029
+            },
+            {
+                "course_id": "PG_00045298",
+                "course_phrase": "principles python ed sebastopol",
+                "similarity": 0.5076733827590942
+            },
+            {
+                "course_id": "PG_00045293",
+                "course_phrase": "python data analysis data wrangling",
+                "similarity": 0.5073165893554688
+            },
+            {
+                "course_id": "PG_00045293",
+                "course_phrase": "python datum science",
+                "similarity": 0.506427526473999
+            },
+            {
+                "course_id": "PG_00045295",
+                "course_phrase": "lutz programming python lista",
+                "similarity": 0.5060468912124634
+            },
+            {
+                "course_id": "PG_00045293",
+                "course_phrase": "fr scratch first principles python",
+                "similarity": 0.5058677196502686
+            },
+            {
+                "course_id": "PG_00045298",
+                "course_phrase": "fr scratch first principles python",
+                "similarity": 0.5058677196502686
+            },
+            {
+                "course_id": "PG_00045380",
+                "course_phrase": "nathan python data mining quick",
+                "similarity": 0.5056350827217102
+            },
+            {
+                "course_id": "PG_00045380",
+                "course_phrase": "nathan python data mining quick",
+                "similarity": 0.5056350827217102
+            },
+            {
+                "course_id": "PG_00045310",
+                "course_phrase": "mapy",
+                "similarity": 0.5053181648254395
+            },
+            {
+                "course_id": "PG_00045374",
+                "course_phrase": "mapy",
+                "similarity": 0.5053181648254395
+            },
+            {
+                "course_id": "PG_00045293",
+                "course_phrase": "python datum",
+                "similarity": 0.5049992203712463
+            },
+            {
+                "course_id": "PG_00045293",
+                "course_phrase": "python datum",
+                "similarity": 0.5049992203712463
+            },
+            {
+                "course_id": "PG_00045293",
+                "course_phrase": "pythonie czesc analiza struktury pojecia",
+                "similarity": 0.5026980638504028
+            },
+            {
+                "course_id": "PG_00045293",
+                "course_phrase": "learn python packt publishing downey",
+                "similarity": 0.502631425857544
+            },
+            {
+                "course_id": "PG_00045293",
+                "course_phrase": "first principles python ed media",
+                "similarity": 0.5025676488876343
+            },
+            {
+                "course_id": "PG_00045293",
+                "course_phrase": "python wykorzystujac biblioteka",
+                "similarity": 0.5025392770767212
+            },
+            {
+                "course_id": "PG_00045295",
+                "course_phrase": "java jezyk python przedstawiciel jezykow",
+                "similarity": 0.5021330714225769
+            },
+            {
+                "course_id": "PG_00053095",
+                "course_phrase": "algorytmy programy",
+                "similarity": 0.5018296241760254
+            },
+            {
+                "course_id": "PG_00045293",
+                "course_phrase": "learn python packt publishing",
+                "similarity": 0.501141369342804
+            },
+            {
+                "course_id": "PG_00053006",
+                "course_phrase": "etapy procesu",
+                "similarity": 0.5007714033126831
+            },
+            {
+                "course_id": "PG_00053006",
+                "course_phrase": "etapy procesu",
+                "similarity": 0.5007714033126831
+            },
+            {
+                "course_id": "PG_00045295",
+                "course_phrase": "python jako przedstawiciel",
+                "similarity": 0.500708281993866
+            },
+            {
+                "course_id": "PG_00045293",
+                "course_phrase": "numpy ipython ed media uzupelniajaca",
+                "similarity": 0.50026935338974
+            },
+            {
+                "course_id": "PG_00045295",
+                "course_phrase": "c python javascript ocena",
+                "similarity": 0.5002636909484863
+            },
+            {
+                "course_id": "PG_00045295",
+                "course_phrase": "c python javascript ocena",
+                "similarity": 0.5002636909484863
+            },
+            {
+                "course_id": "PG_00045295",
+                "course_phrase": "java jezyk python przedstawiciel",
+                "similarity": 0.5001946091651917
             }
         ],
         "Windows": [
@@ -1886,6 +4410,161 @@
                 "course_id": "PG_00061802",
                 "course_phrase": "computer",
                 "similarity": 0.6827335357666016
+            },
+            {
+                "course_id": "PG_00045291",
+                "course_phrase": "windows rozumie",
+                "similarity": 0.576988935470581
+            },
+            {
+                "course_id": "PG_00045291",
+                "course_phrase": "linux",
+                "similarity": 0.5753819942474365
+            },
+            {
+                "course_id": "PG_00045291",
+                "course_phrase": "linux",
+                "similarity": 0.5753819942474365
+            },
+            {
+                "course_id": "PG_00045291",
+                "course_phrase": "linux",
+                "similarity": 0.5753819942474365
+            },
+            {
+                "course_id": "PG_00045291",
+                "course_phrase": "linux",
+                "similarity": 0.5753819942474365
+            },
+            {
+                "course_id": "PG_00045291",
+                "course_phrase": "linux",
+                "similarity": 0.5753819942474365
+            },
+            {
+                "course_id": "PG_00045291",
+                "course_phrase": "linux",
+                "similarity": 0.5753819942474365
+            },
+            {
+                "course_id": "PG_00045291",
+                "course_phrase": "linux",
+                "similarity": 0.5753819942474365
+            },
+            {
+                "course_id": "PG_00045291",
+                "course_phrase": "linux",
+                "similarity": 0.5753819942474365
+            },
+            {
+                "course_id": "PG_00045291",
+                "course_phrase": "linux",
+                "similarity": 0.5753819942474365
+            },
+            {
+                "course_id": "PG_00045291",
+                "course_phrase": "linux",
+                "similarity": 0.5753819942474365
+            },
+            {
+                "course_id": "PG_00045291",
+                "course_phrase": "linux window",
+                "similarity": 0.572574257850647
+            },
+            {
+                "course_id": "PG_00045305",
+                "course_phrase": "gui",
+                "similarity": 0.5556721687316895
+            },
+            {
+                "course_id": "PG_00045305",
+                "course_phrase": "gui",
+                "similarity": 0.5556721687316895
+            },
+            {
+                "course_id": "PG_00045302",
+                "course_phrase": "software",
+                "similarity": 0.5457708239555359
+            },
+            {
+                "course_id": "PG_00045302",
+                "course_phrase": "software",
+                "similarity": 0.5457707643508911
+            },
+            {
+                "course_id": "PG_00045302",
+                "course_phrase": "software",
+                "similarity": 0.5457707643508911
+            },
+            {
+                "course_id": "PG_00045302",
+                "course_phrase": "software",
+                "similarity": 0.5457707643508911
+            },
+            {
+                "course_id": "PG_00053008",
+                "course_phrase": "software",
+                "similarity": 0.5457707643508911
+            },
+            {
+                "course_id": "PG_00045291",
+                "course_phrase": "operating",
+                "similarity": 0.5428760051727295
+            },
+            {
+                "course_id": "PG_00045290",
+                "course_phrase": "platform",
+                "similarity": 0.5402215123176575
+            },
+            {
+                "course_id": "PG_00045305",
+                "course_phrase": "human computer",
+                "similarity": 0.5338417887687683
+            },
+            {
+                "course_id": "PG_00045305",
+                "course_phrase": "human computer",
+                "similarity": 0.5338417887687683
+            },
+            {
+                "course_id": "PG_00045305",
+                "course_phrase": "human computer",
+                "similarity": 0.5338417887687683
+            },
+            {
+                "course_id": "PG_00045329",
+                "course_phrase": "programs",
+                "similarity": 0.5272266864776611
+            },
+            {
+                "course_id": "PG_00053007",
+                "course_phrase": "graphics",
+                "similarity": 0.5112305879592896
+            },
+            {
+                "course_id": "PG_00053007",
+                "course_phrase": "graphics",
+                "similarity": 0.5112305879592896
+            },
+            {
+                "course_id": "PG_00045303",
+                "course_phrase": "downloads",
+                "similarity": 0.5049116611480713
+            },
+            {
+                "course_id": "PG_00045303",
+                "course_phrase": "downloads",
+                "similarity": 0.5049116611480713
+            },
+            {
+                "course_id": "PG_00045303",
+                "course_phrase": "downloads",
+                "similarity": 0.5049116611480713
+            },
+            {
+                "course_id": "PG_00045291",
+                "course_phrase": "operating system concepts",
+                "similarity": 0.5034219026565552
             }
         ],
         "Linux": [
@@ -2108,6 +4787,390 @@
                 "course_id": "PG_00045291",
                 "course_phrase": "systemu linux",
                 "similarity": 0.6130174398422241
+            },
+            {
+                "course_id": "PG_00045291",
+                "course_phrase": "linux command",
+                "similarity": 0.593847393989563
+            },
+            {
+                "course_id": "PG_00045291",
+                "course_phrase": "linux command",
+                "similarity": 0.593847393989563
+            },
+            {
+                "course_id": "PG_00045291",
+                "course_phrase": "linux windows rozumie",
+                "similarity": 0.5805884599685669
+            },
+            {
+                "course_id": "PG_00045291",
+                "course_phrase": "windows",
+                "similarity": 0.5753819346427917
+            },
+            {
+                "course_id": "PG_00045291",
+                "course_phrase": "bresnahan linux",
+                "similarity": 0.5718291997909546
+            },
+            {
+                "course_id": "PG_00045291",
+                "course_phrase": "bresnahan linux",
+                "similarity": 0.5718291997909546
+            },
+            {
+                "course_id": "PG_00045305",
+                "course_phrase": "gui",
+                "similarity": 0.563008725643158
+            },
+            {
+                "course_id": "PG_00045305",
+                "course_phrase": "gui",
+                "similarity": 0.563008725643158
+            },
+            {
+                "course_id": "PG_00045291",
+                "course_phrase": "system linux tworzenie",
+                "similarity": 0.5617839097976685
+            },
+            {
+                "course_id": "PG_00045291",
+                "course_phrase": "system linux tworzenie",
+                "similarity": 0.5617839097976685
+            },
+            {
+                "course_id": "PG_00061802",
+                "course_phrase": "przyklady zmienne warunkowe systemie unix",
+                "similarity": 0.560280978679657
+            },
+            {
+                "course_id": "PG_00045291",
+                "course_phrase": "linux tworzenie",
+                "similarity": 0.5484689474105835
+            },
+            {
+                "course_id": "PG_00045291",
+                "course_phrase": "linux tworzenie",
+                "similarity": 0.5484689474105835
+            },
+            {
+                "course_id": "PG_00045291",
+                "course_phrase": "kaczmarek j szkola systemu linux",
+                "similarity": 0.5481414794921875
+            },
+            {
+                "course_id": "PG_00045291",
+                "course_phrase": "operating system concepts",
+                "similarity": 0.5462541580200195
+            },
+            {
+                "course_id": "PG_00045291",
+                "course_phrase": "system unix helion",
+                "similarity": 0.5420953035354614
+            },
+            {
+                "course_id": "PG_00045291",
+                "course_phrase": "administrator system unix",
+                "similarity": 0.5396361351013184
+            },
+            {
+                "course_id": "PG_00045305",
+                "course_phrase": "user system",
+                "similarity": 0.5363830327987671
+            },
+            {
+                "course_id": "PG_00045305",
+                "course_phrase": "user system",
+                "similarity": 0.5363830327987671
+            },
+            {
+                "course_id": "PG_00045291",
+                "course_phrase": "system linux tworzenie jezyk",
+                "similarity": 0.5343626737594604
+            },
+            {
+                "course_id": "PG_00045291",
+                "course_phrase": "linux windows rozumie polityke dostep",
+                "similarity": 0.5342535972595215
+            },
+            {
+                "course_id": "PG_00045291",
+                "course_phrase": "linux windows rozumie polityke",
+                "similarity": 0.533690333366394
+            },
+            {
+                "course_id": "PG_00061802",
+                "course_phrase": "problemow przyklad system unix",
+                "similarity": 0.5335394144058228
+            },
+            {
+                "course_id": "PG_00045291",
+                "course_phrase": "cechy systemu linux rodzaje dystrybucji",
+                "similarity": 0.532361626625061
+            },
+            {
+                "course_id": "PG_00045291",
+                "course_phrase": "system linux tworzenie jezyk powloka",
+                "similarity": 0.5323554277420044
+            },
+            {
+                "course_id": "PG_00061802",
+                "course_phrase": "przyklad system unix",
+                "similarity": 0.5307715535163879
+            },
+            {
+                "course_id": "PG_00045291",
+                "course_phrase": "systemu cechy systemu linux",
+                "similarity": 0.5294903516769409
+            },
+            {
+                "course_id": "PG_00045291",
+                "course_phrase": "system unix helion kaczmarek j",
+                "similarity": 0.5293052196502686
+            },
+            {
+                "course_id": "PG_00045291",
+                "course_phrase": "gagne operating system",
+                "similarity": 0.5280389189720154
+            },
+            {
+                "course_id": "PG_00045291",
+                "course_phrase": "system unix helion kaczmarek",
+                "similarity": 0.5274316072463989
+            },
+            {
+                "course_id": "PG_00045291",
+                "course_phrase": "operating system concepts wiley richard",
+                "similarity": 0.526893675327301
+            },
+            {
+                "course_id": "PG_00061802",
+                "course_phrase": "funkcji wielowatkowych systemie unix",
+                "similarity": 0.5225952863693237
+            },
+            {
+                "course_id": "PG_00045291",
+                "course_phrase": "systemu unix",
+                "similarity": 0.5208470821380615
+            },
+            {
+                "course_id": "PG_00045305",
+                "course_phrase": "computer",
+                "similarity": 0.5200949311256409
+            },
+            {
+                "course_id": "PG_00045305",
+                "course_phrase": "computer",
+                "similarity": 0.5200949311256409
+            },
+            {
+                "course_id": "PG_00045305",
+                "course_phrase": "computer",
+                "similarity": 0.5200949311256409
+            },
+            {
+                "course_id": "PG_00045305",
+                "course_phrase": "computer",
+                "similarity": 0.5200949311256409
+            },
+            {
+                "course_id": "PG_00045302",
+                "course_phrase": "computer",
+                "similarity": 0.5200949311256409
+            },
+            {
+                "course_id": "PG_00045302",
+                "course_phrase": "computer",
+                "similarity": 0.5200949311256409
+            },
+            {
+                "course_id": "PG_00045321",
+                "course_phrase": "computer",
+                "similarity": 0.5200949311256409
+            },
+            {
+                "course_id": "PG_00045321",
+                "course_phrase": "computer",
+                "similarity": 0.5200949311256409
+            },
+            {
+                "course_id": "PG_00045321",
+                "course_phrase": "computer",
+                "similarity": 0.5200949311256409
+            },
+            {
+                "course_id": "PG_00045321",
+                "course_phrase": "computer",
+                "similarity": 0.5200949311256409
+            },
+            {
+                "course_id": "PG_00061802",
+                "course_phrase": "computer",
+                "similarity": 0.5200949311256409
+            },
+            {
+                "course_id": "PG_00061802",
+                "course_phrase": "computer",
+                "similarity": 0.5200949311256409
+            },
+            {
+                "course_id": "PG_00045302",
+                "course_phrase": "software",
+                "similarity": 0.5186898112297058
+            },
+            {
+                "course_id": "PG_00045302",
+                "course_phrase": "software",
+                "similarity": 0.5186898112297058
+            },
+            {
+                "course_id": "PG_00045302",
+                "course_phrase": "software",
+                "similarity": 0.5186898112297058
+            },
+            {
+                "course_id": "PG_00053008",
+                "course_phrase": "software",
+                "similarity": 0.5186898112297058
+            },
+            {
+                "course_id": "PG_00045302",
+                "course_phrase": "software",
+                "similarity": 0.5186896324157715
+            },
+            {
+                "course_id": "PG_00045291",
+                "course_phrase": "linux command line",
+                "similarity": 0.5173420310020447
+            },
+            {
+                "course_id": "PG_00045291",
+                "course_phrase": "linux command line",
+                "similarity": 0.5173420310020447
+            },
+            {
+                "course_id": "PG_00045322",
+                "course_phrase": "dobierajac komponent platforma",
+                "similarity": 0.5172216892242432
+            },
+            {
+                "course_id": "PG_00045291",
+                "course_phrase": "systemow linux",
+                "similarity": 0.515864908695221
+            },
+            {
+                "course_id": "PG_00045291",
+                "course_phrase": "systemow linux",
+                "similarity": 0.515864908695221
+            },
+            {
+                "course_id": "PG_00045291",
+                "course_phrase": "cechy systemu linux rodzaje",
+                "similarity": 0.5130586624145508
+            },
+            {
+                "course_id": "PG_00061802",
+                "course_phrase": "unix network",
+                "similarity": 0.5100922584533691
+            },
+            {
+                "course_id": "PG_00061802",
+                "course_phrase": "unix network",
+                "similarity": 0.5100922584533691
+            },
+            {
+                "course_id": "PG_00045291",
+                "course_phrase": "cechy systemu linux",
+                "similarity": 0.5087173581123352
+            },
+            {
+                "course_id": "PG_00045291",
+                "course_phrase": "linux tworzenie jezyk powloka",
+                "similarity": 0.5071631073951721
+            },
+            {
+                "course_id": "PG_00045291",
+                "course_phrase": "konfiguracja systemu cechy systemu linux",
+                "similarity": 0.5069634914398193
+            },
+            {
+                "course_id": "PG_00045291",
+                "course_phrase": "realizowane zadania administracja system linux",
+                "similarity": 0.5062897801399231
+            },
+            {
+                "course_id": "PG_00061802",
+                "course_phrase": "warunkowe systemie unix praktyczna",
+                "similarity": 0.5052640438079834
+            },
+            {
+                "course_id": "PG_00045291",
+                "course_phrase": "linux window rozumie",
+                "similarity": 0.5043020248413086
+            },
+            {
+                "course_id": "PG_00045291",
+                "course_phrase": "kaczmarek j szkol system linux",
+                "similarity": 0.5030182600021362
+            },
+            {
+                "course_id": "PG_00061802",
+                "course_phrase": "r unix",
+                "similarity": 0.5025242567062378
+            },
+            {
+                "course_id": "PG_00061802",
+                "course_phrase": "r unix",
+                "similarity": 0.5025242567062378
+            },
+            {
+                "course_id": "PG_00045291",
+                "course_phrase": "linux tworzenie jezyk",
+                "similarity": 0.5020989179611206
+            },
+            {
+                "course_id": "PG_00045291",
+                "course_phrase": "linux tworzenie jezyk powloka szeregowanie",
+                "similarity": 0.5017016530036926
+            },
+            {
+                "course_id": "PG_00061802",
+                "course_phrase": "zmienne warunkowe systemie unix praktyczna",
+                "similarity": 0.501448392868042
+            },
+            {
+                "course_id": "PG_00061802",
+                "course_phrase": "rozwiazywanie problemow przyklad system unix",
+                "similarity": 0.5000096559524536
+            }
+        ],
+        "5+ years of experience in system administration or build engineering.": [
+            {
+                "course_id": "PG_00045302",
+                "course_phrase": "engineering practitioners",
+                "similarity": 0.5113608837127686
+            },
+            {
+                "course_id": "PG_00045302",
+                "course_phrase": "engineering practitioners",
+                "similarity": 0.5113608837127686
+            },
+            {
+                "course_id": "PG_00045302",
+                "course_phrase": "software engineering practitioners",
+                "similarity": 0.5022605657577515
+            }
+        ],
+        "Strong Perl scripting skills (ability to read, maintain, and debug existing scripts).": [
+            {
+                "course_id": "PG_00045291",
+                "course_phrase": "scripting",
+                "similarity": 0.504794716835022
+            },
+            {
+                "course_id": "PG_00045291",
+                "course_phrase": "scripting",
+                "similarity": 0.504794716835022
             }
         ],
         "Experience working with Windows Server and UNIX/Linux systems.": [
@@ -2215,6 +5278,117 @@
                 "course_id": "PG_00061802",
                 "course_phrase": "unix",
                 "similarity": 0.6267300844192505
+            },
+            {
+                "course_id": "PG_00045291",
+                "course_phrase": "system unix",
+                "similarity": 0.5738141536712646
+            },
+            {
+                "course_id": "PG_00061802",
+                "course_phrase": "system unix",
+                "similarity": 0.5738141536712646
+            },
+            {
+                "course_id": "PG_00061802",
+                "course_phrase": "system unix",
+                "similarity": 0.5738141536712646
+            },
+            {
+                "course_id": "PG_00061802",
+                "course_phrase": "system unix",
+                "similarity": 0.5738141536712646
+            },
+            {
+                "course_id": "PG_00045291",
+                "course_phrase": "system linux",
+                "similarity": 0.5221661925315857
+            },
+            {
+                "course_id": "PG_00045291",
+                "course_phrase": "system linux",
+                "similarity": 0.5221661925315857
+            },
+            {
+                "course_id": "PG_00045291",
+                "course_phrase": "system linux",
+                "similarity": 0.5221661925315857
+            },
+            {
+                "course_id": "PG_00045291",
+                "course_phrase": "system linux",
+                "similarity": 0.5221661925315857
+            },
+            {
+                "course_id": "PG_00061802",
+                "course_phrase": "unix network",
+                "similarity": 0.5139203071594238
+            },
+            {
+                "course_id": "PG_00061802",
+                "course_phrase": "unix network",
+                "similarity": 0.5139203071594238
+            },
+            {
+                "course_id": "PG_00045291",
+                "course_phrase": "operating system",
+                "similarity": 0.5127726793289185
+            },
+            {
+                "course_id": "PG_00045291",
+                "course_phrase": "administrator system unix",
+                "similarity": 0.5053410530090332
+            },
+            {
+                "course_id": "PG_00061802",
+                "course_phrase": "funkcji wielowatkowych systemie unix",
+                "similarity": 0.5052440166473389
+            }
+        ],
+        "Good communication skills in German (B2 or higher) and English.": [
+            {
+                "course_id": "PG_00045377",
+                "course_phrase": "skills",
+                "similarity": 0.5163038969039917
+            }
+        ],
+        "Team-oriented mindset with ability to work independently and proactively.": [
+            {
+                "course_id": "PG_00045362",
+                "course_phrase": "mindsets",
+                "similarity": 0.5390127897262573
+            },
+            {
+                "course_id": "PG_00045362",
+                "course_phrase": "mindset",
+                "similarity": 0.5230492949485779
+            },
+            {
+                "course_id": "PG_00045362",
+                "course_phrase": "mindset knowledge",
+                "similarity": 0.521233320236206
+            },
+            {
+                "course_id": "PG_00045362",
+                "course_phrase": "mindsets knowledge",
+                "similarity": 0.5101096034049988
+            },
+            {
+                "course_id": "PG_00045362",
+                "course_phrase": "mindset knowledge management",
+                "similarity": 0.5077394247055054
+            }
+        ],
+        "Familiarity with Git, Jenkins, and Azure DevOps toolchains.": [
+            {
+                "course_id": "PG_00064004",
+                "course_phrase": "git",
+                "similarity": 0.5256456136703491
+            },
+            {
+                "course_id": "PG_00064004",
+                "course_phrase": "git",
+                "similarity": 0.5256456136703491
             }
         ],
         "Knowledge of Python scripting.": [
@@ -2527,6 +5701,920 @@
                 "course_id": "PG_00045295",
                 "course_phrase": "beginner mark lutz programming python",
                 "similarity": 0.6000444889068604
+            },
+            {
+                "course_id": "PG_00045293",
+                "course_phrase": "pythona student",
+                "similarity": 0.5959694385528564
+            },
+            {
+                "course_id": "PG_00045293",
+                "course_phrase": "pythona student",
+                "similarity": 0.5959694385528564
+            },
+            {
+                "course_id": "PG_00045293",
+                "course_phrase": "principles python ed",
+                "similarity": 0.5959596633911133
+            },
+            {
+                "course_id": "PG_00045298",
+                "course_phrase": "principles python ed",
+                "similarity": 0.5959596633911133
+            },
+            {
+                "course_id": "PG_00045293",
+                "course_phrase": "pythona",
+                "similarity": 0.5956339836120605
+            },
+            {
+                "course_id": "PG_00045293",
+                "course_phrase": "pythona",
+                "similarity": 0.5956339836120605
+            },
+            {
+                "course_id": "PG_00045293",
+                "course_phrase": "pythona",
+                "similarity": 0.5956339836120605
+            },
+            {
+                "course_id": "PG_00045293",
+                "course_phrase": "pythona",
+                "similarity": 0.5956339836120605
+            },
+            {
+                "course_id": "PG_00045293",
+                "course_phrase": "pythona",
+                "similarity": 0.5956339836120605
+            },
+            {
+                "course_id": "PG_00045293",
+                "course_phrase": "pythona",
+                "similarity": 0.5956339836120605
+            },
+            {
+                "course_id": "PG_00045293",
+                "course_phrase": "pythona",
+                "similarity": 0.5956339836120605
+            },
+            {
+                "course_id": "PG_00045293",
+                "course_phrase": "pythona",
+                "similarity": 0.5956339836120605
+            },
+            {
+                "course_id": "PG_00045293",
+                "course_phrase": "principle python",
+                "similarity": 0.5915610790252686
+            },
+            {
+                "course_id": "PG_00045298",
+                "course_phrase": "principle python",
+                "similarity": 0.5915610790252686
+            },
+            {
+                "course_id": "PG_00045293",
+                "course_phrase": "first principles python",
+                "similarity": 0.5819913148880005
+            },
+            {
+                "course_id": "PG_00045298",
+                "course_phrase": "first principles python",
+                "similarity": 0.5819913148880005
+            },
+            {
+                "course_id": "PG_00045291",
+                "course_phrase": "shell scripting",
+                "similarity": 0.5799781084060669
+            },
+            {
+                "course_id": "PG_00045291",
+                "course_phrase": "shell scripting",
+                "similarity": 0.5799781084060669
+            },
+            {
+                "course_id": "PG_00045293",
+                "course_phrase": "analiza rozklad korelacja uzycie pythona",
+                "similarity": 0.5705664157867432
+            },
+            {
+                "course_id": "PG_00045293",
+                "course_phrase": "uzycie pythona student",
+                "similarity": 0.5688910484313965
+            },
+            {
+                "course_id": "PG_00045293",
+                "course_phrase": "first principles python ed",
+                "similarity": 0.567457914352417
+            },
+            {
+                "course_id": "PG_00045298",
+                "course_phrase": "first principles python ed",
+                "similarity": 0.567457914352417
+            },
+            {
+                "course_id": "PG_00045293",
+                "course_phrase": "python data",
+                "similarity": 0.5662753582000732
+            },
+            {
+                "course_id": "PG_00045293",
+                "course_phrase": "python data",
+                "similarity": 0.5662753582000732
+            },
+            {
+                "course_id": "PG_00045380",
+                "course_phrase": "python data",
+                "similarity": 0.5662753582000732
+            },
+            {
+                "course_id": "PG_00045380",
+                "course_phrase": "python data",
+                "similarity": 0.5662753582000732
+            },
+            {
+                "course_id": "PG_00045380",
+                "course_phrase": "python data",
+                "similarity": 0.5662753582000732
+            },
+            {
+                "course_id": "PG_00045380",
+                "course_phrase": "python data",
+                "similarity": 0.5662753582000732
+            },
+            {
+                "course_id": "PG_00045295",
+                "course_phrase": "mark lutz programming python",
+                "similarity": 0.5655365586280823
+            },
+            {
+                "course_id": "PG_00045295",
+                "course_phrase": "mark lutz programming python",
+                "similarity": 0.5655365586280823
+            },
+            {
+                "course_id": "PG_00045293",
+                "course_phrase": "principle python ed",
+                "similarity": 0.5639946460723877
+            },
+            {
+                "course_id": "PG_00045298",
+                "course_phrase": "principle python ed",
+                "similarity": 0.5639946460723877
+            },
+            {
+                "course_id": "PG_00045295",
+                "course_phrase": "python javascript",
+                "similarity": 0.5629255771636963
+            },
+            {
+                "course_id": "PG_00045295",
+                "course_phrase": "python javascript",
+                "similarity": 0.5629255771636963
+            },
+            {
+                "course_id": "PG_00045380",
+                "course_phrase": "mining python",
+                "similarity": 0.5627527832984924
+            },
+            {
+                "course_id": "PG_00045380",
+                "course_phrase": "mining python",
+                "similarity": 0.5627527832984924
+            },
+            {
+                "course_id": "PG_00045380",
+                "course_phrase": "mining python",
+                "similarity": 0.5627527832984924
+            },
+            {
+                "course_id": "PG_00045380",
+                "course_phrase": "mining python",
+                "similarity": 0.5627527832984924
+            },
+            {
+                "course_id": "PG_00045295",
+                "course_phrase": "python javascript ocena umiejetnosci analiza",
+                "similarity": 0.5623232126235962
+            },
+            {
+                "course_id": "PG_00045295",
+                "course_phrase": "python javascript ocena umiejetnosci analizy",
+                "similarity": 0.5584090948104858
+            },
+            {
+                "course_id": "PG_00045298",
+                "course_phrase": "przeprowadza badania statystyczne wykorzystujac python",
+                "similarity": 0.5563198924064636
+            },
+            {
+                "course_id": "PG_00045295",
+                "course_phrase": "programming",
+                "similarity": 0.5556546449661255
+            },
+            {
+                "course_id": "PG_00045295",
+                "course_phrase": "programming",
+                "similarity": 0.5556546449661255
+            },
+            {
+                "course_id": "PG_00045295",
+                "course_phrase": "programming",
+                "similarity": 0.5556546449661255
+            },
+            {
+                "course_id": "PG_00045295",
+                "course_phrase": "programming",
+                "similarity": 0.5556546449661255
+            },
+            {
+                "course_id": "PG_00045303",
+                "course_phrase": "programming",
+                "similarity": 0.5556546449661255
+            },
+            {
+                "course_id": "PG_00045303",
+                "course_phrase": "programming",
+                "similarity": 0.5556546449661255
+            },
+            {
+                "course_id": "PG_00045303",
+                "course_phrase": "programming",
+                "similarity": 0.5556546449661255
+            },
+            {
+                "course_id": "PG_00045303",
+                "course_phrase": "programming",
+                "similarity": 0.5556546449661255
+            },
+            {
+                "course_id": "PG_00061802",
+                "course_phrase": "programming",
+                "similarity": 0.5556546449661255
+            },
+            {
+                "course_id": "PG_00061802",
+                "course_phrase": "programming",
+                "similarity": 0.5556546449661255
+            },
+            {
+                "course_id": "PG_00045293",
+                "course_phrase": "programowania python",
+                "similarity": 0.5545152425765991
+            },
+            {
+                "course_id": "PG_00045298",
+                "course_phrase": "planować przeprowadzać badanie wykorzystujac python",
+                "similarity": 0.5514231324195862
+            },
+            {
+                "course_id": "PG_00045293",
+                "course_phrase": "rozklad korelacja uzycie pythona student",
+                "similarity": 0.5503475666046143
+            },
+            {
+                "course_id": "PG_00045380",
+                "course_phrase": "python przygotowywanie danych wizualizacja",
+                "similarity": 0.5489629507064819
+            },
+            {
+                "course_id": "PG_00045380",
+                "course_phrase": "python analyze",
+                "similarity": 0.5485600829124451
+            },
+            {
+                "course_id": "PG_00045380",
+                "course_phrase": "python analyze",
+                "similarity": 0.5485600829124451
+            },
+            {
+                "course_id": "PG_00045293",
+                "course_phrase": "analysis python",
+                "similarity": 0.5458046793937683
+            },
+            {
+                "course_id": "PG_00045295",
+                "course_phrase": "c python",
+                "similarity": 0.5443083047866821
+            },
+            {
+                "course_id": "PG_00045295",
+                "course_phrase": "c python",
+                "similarity": 0.5443083047866821
+            },
+            {
+                "course_id": "PG_00045293",
+                "course_phrase": "zastosowanie student wykorzystywać jezyk python",
+                "similarity": 0.5413463711738586
+            },
+            {
+                "course_id": "PG_00045293",
+                "course_phrase": "jezyk python celu opracowania profesjonalnego",
+                "similarity": 0.5413456559181213
+            },
+            {
+                "course_id": "PG_00045293",
+                "course_phrase": "in python media",
+                "similarity": 0.5406715869903564
+            },
+            {
+                "course_id": "PG_00045293",
+                "course_phrase": "j python",
+                "similarity": 0.5400594472885132
+            },
+            {
+                "course_id": "PG_00045293",
+                "course_phrase": "wykorzystaniu jezyka programowania python",
+                "similarity": 0.5398594737052917
+            },
+            {
+                "course_id": "PG_00045295",
+                "course_phrase": "lutz programming python",
+                "similarity": 0.539728045463562
+            },
+            {
+                "course_id": "PG_00045295",
+                "course_phrase": "lutz programming python",
+                "similarity": 0.539728045463562
+            },
+            {
+                "course_id": "PG_00045293",
+                "course_phrase": "przy wykorzystaniu jezyka programowania python",
+                "similarity": 0.5389690399169922
+            },
+            {
+                "course_id": "PG_00045293",
+                "course_phrase": "uzyciu pythona przeprowadz analize",
+                "similarity": 0.5385386943817139
+            },
+            {
+                "course_id": "PG_00045380",
+                "course_phrase": "eksploracji wizualizacji danych jezyka python",
+                "similarity": 0.5375804901123047
+            },
+            {
+                "course_id": "PG_00045293",
+                "course_phrase": "datum science machine learn python",
+                "similarity": 0.5367227792739868
+            },
+            {
+                "course_id": "PG_00045293",
+                "course_phrase": "biznesowych student wykorzystuje jezyk python",
+                "similarity": 0.536406934261322
+            },
+            {
+                "course_id": "PG_00045298",
+                "course_phrase": "przeprowadzać badanie wykorzystujac python",
+                "similarity": 0.533612072467804
+            },
+            {
+                "course_id": "PG_00045298",
+                "course_phrase": "python visual studio code",
+                "similarity": 0.5335814952850342
+            },
+            {
+                "course_id": "PG_00045298",
+                "course_phrase": "python visual studio code",
+                "similarity": 0.5335814952850342
+            },
+            {
+                "course_id": "PG_00045295",
+                "course_phrase": "c python javascript",
+                "similarity": 0.5329686999320984
+            },
+            {
+                "course_id": "PG_00045295",
+                "course_phrase": "c python javascript",
+                "similarity": 0.5329686999320984
+            },
+            {
+                "course_id": "PG_00045293",
+                "course_phrase": "student wykorzystuje jezyk python",
+                "similarity": 0.5324990749359131
+            },
+            {
+                "course_id": "PG_00045293",
+                "course_phrase": "python celu opracowania profesjonalnego raportu",
+                "similarity": 0.5309913158416748
+            },
+            {
+                "course_id": "PG_00045293",
+                "course_phrase": "korelacja uzycie pythona student",
+                "similarity": 0.5304820537567139
+            },
+            {
+                "course_id": "PG_00045293",
+                "course_phrase": "python celu opracowania profesjonalnego",
+                "similarity": 0.5303502082824707
+            },
+            {
+                "course_id": "PG_00045293",
+                "course_phrase": "pythonie",
+                "similarity": 0.5273486375808716
+            },
+            {
+                "course_id": "PG_00045293",
+                "course_phrase": "pythonie",
+                "similarity": 0.5273486375808716
+            },
+            {
+                "course_id": "PG_00045293",
+                "course_phrase": "pythonie",
+                "similarity": 0.5273486375808716
+            },
+            {
+                "course_id": "PG_00045380",
+                "course_phrase": "python przygotowywanie danych",
+                "similarity": 0.5257852077484131
+            },
+            {
+                "course_id": "PG_00045380",
+                "course_phrase": "python przygotowywanie danych wizualizacja danych",
+                "similarity": 0.5256166458129883
+            },
+            {
+                "course_id": "PG_00045293",
+                "course_phrase": "rozkladu korelacji przy uzyciu pythona",
+                "similarity": 0.5256015062332153
+            },
+            {
+                "course_id": "PG_00045293",
+                "course_phrase": "uzyciem pythona",
+                "similarity": 0.5246278047561646
+            },
+            {
+                "course_id": "PG_00045298",
+                "course_phrase": "statystyczne wykorzystujac python",
+                "similarity": 0.5243542194366455
+            },
+            {
+                "course_id": "PG_00045293",
+                "course_phrase": "student wykorzystywać jezyk python",
+                "similarity": 0.5230310559272766
+            },
+            {
+                "course_id": "PG_00045295",
+                "course_phrase": "programming language",
+                "similarity": 0.5229154825210571
+            },
+            {
+                "course_id": "PG_00045295",
+                "course_phrase": "programming language",
+                "similarity": 0.5229154825210571
+            },
+            {
+                "course_id": "PG_00045380",
+                "course_phrase": "wprowadzenie jezyka python przygotowywanie danych",
+                "similarity": 0.5225240588188171
+            },
+            {
+                "course_id": "PG_00045295",
+                "course_phrase": "programming python lista",
+                "similarity": 0.5216489434242249
+            },
+            {
+                "course_id": "PG_00045293",
+                "course_phrase": "learning python packt",
+                "similarity": 0.5205239653587341
+            },
+            {
+                "course_id": "PG_00045293",
+                "course_phrase": "learn python packt",
+                "similarity": 0.5203585028648376
+            },
+            {
+                "course_id": "PG_00045295",
+                "course_phrase": "mark lutz programming python uzupelniajaca",
+                "similarity": 0.5201846361160278
+            },
+            {
+                "course_id": "PG_00045293",
+                "course_phrase": "danych uzyciem pythona",
+                "similarity": 0.5198923349380493
+            },
+            {
+                "course_id": "PG_00045380",
+                "course_phrase": "jezyka python przygotowywanie danych wizualizacja",
+                "similarity": 0.5185549259185791
+            },
+            {
+                "course_id": "PG_00045293",
+                "course_phrase": "machine learn python packt",
+                "similarity": 0.5179738402366638
+            },
+            {
+                "course_id": "PG_00045293",
+                "course_phrase": "wykorzystuje jezyk python celu opracowania",
+                "similarity": 0.5176970362663269
+            },
+            {
+                "course_id": "PG_00045380",
+                "course_phrase": "python harness",
+                "similarity": 0.5172702074050903
+            },
+            {
+                "course_id": "PG_00045380",
+                "course_phrase": "python harness",
+                "similarity": 0.5172702074050903
+            },
+            {
+                "course_id": "PG_00045295",
+                "course_phrase": "c python javascript ocena umiejetnosci",
+                "similarity": 0.517220675945282
+            },
+            {
+                "course_id": "PG_00045295",
+                "course_phrase": "c python javascript ocena umiejetnosci",
+                "similarity": 0.517220675945282
+            },
+            {
+                "course_id": "PG_00045293",
+                "course_phrase": "jezyk python cel opracować",
+                "similarity": 0.5170566439628601
+            },
+            {
+                "course_id": "PG_00045293",
+                "course_phrase": "python data analysis",
+                "similarity": 0.5168570280075073
+            },
+            {
+                "course_id": "PG_00045380",
+                "course_phrase": "wizualizacji danych jezyka python",
+                "similarity": 0.5168083906173706
+            },
+            {
+                "course_id": "PG_00045293",
+                "course_phrase": "analysis python ed",
+                "similarity": 0.5139017701148987
+            },
+            {
+                "course_id": "PG_00045380",
+                "course_phrase": "wprowadzić jezyk python przygotowywać",
+                "similarity": 0.5138044953346252
+            },
+            {
+                "course_id": "PG_00045293",
+                "course_phrase": "przy uzyciu pythona przeprowadz analize",
+                "similarity": 0.513647198677063
+            },
+            {
+                "course_id": "PG_00045293",
+                "course_phrase": "rozklad korelacja uzycie pythona",
+                "similarity": 0.5136030912399292
+            },
+            {
+                "course_id": "PG_00045293",
+                "course_phrase": "pythona przeprowadz analize korelacji miedzy",
+                "similarity": 0.5126098394393921
+            },
+            {
+                "course_id": "PG_00045293",
+                "course_phrase": "jezyk python cel opracować raport",
+                "similarity": 0.5121498107910156
+            },
+            {
+                "course_id": "PG_00045293",
+                "course_phrase": "wykorzystuje jezyk python",
+                "similarity": 0.5120679140090942
+            },
+            {
+                "course_id": "PG_00045380",
+                "course_phrase": "squire mastering data mining python",
+                "similarity": 0.5118858814239502
+            },
+            {
+                "course_id": "PG_00045380",
+                "course_phrase": "squire mastering data mining python",
+                "similarity": 0.5118858814239502
+            },
+            {
+                "course_id": "PG_00045293",
+                "course_phrase": "korelacji przy uzyciu pythona student",
+                "similarity": 0.5112450122833252
+            },
+            {
+                "course_id": "PG_00045380",
+                "course_phrase": "wprowadzenie jezyka python przygotowywanie",
+                "similarity": 0.511056125164032
+            },
+            {
+                "course_id": "PG_00045293",
+                "course_phrase": "uzyciu pythona przeprowadz analize korelacji",
+                "similarity": 0.5108974575996399
+            },
+            {
+                "course_id": "PG_00045295",
+                "course_phrase": "programowanie java c python javascript",
+                "similarity": 0.5108463764190674
+            },
+            {
+                "course_id": "PG_00045293",
+                "course_phrase": "wykorzystywać jezyk python cel opracować",
+                "similarity": 0.5103121399879456
+            },
+            {
+                "course_id": "PG_00045293",
+                "course_phrase": "science machine learn python packt",
+                "similarity": 0.5101134181022644
+            },
+            {
+                "course_id": "PG_00045380",
+                "course_phrase": "python analyze data insightful",
+                "similarity": 0.5079485177993774
+            },
+            {
+                "course_id": "PG_00045380",
+                "course_phrase": "python data mining quick syntax",
+                "similarity": 0.5072421431541443
+            },
+            {
+                "course_id": "PG_00045380",
+                "course_phrase": "python data mining quick syntax",
+                "similarity": 0.5072421431541443
+            },
+            {
+                "course_id": "PG_00045298",
+                "course_phrase": "scientists r python",
+                "similarity": 0.5069718360900879
+            },
+            {
+                "course_id": "PG_00045298",
+                "course_phrase": "scientists r python",
+                "similarity": 0.5069718360900879
+            },
+            {
+                "course_id": "PG_00045295",
+                "course_phrase": "python przedstawiciel jezykow programowanie",
+                "similarity": 0.5065178275108337
+            },
+            {
+                "course_id": "PG_00045293",
+                "course_phrase": "visualization in python",
+                "similarity": 0.5056678056716919
+            },
+            {
+                "course_id": "PG_00045380",
+                "course_phrase": "python przygotowywać",
+                "similarity": 0.5053337812423706
+            },
+            {
+                "course_id": "PG_00045295",
+                "course_phrase": "programowanie java c python",
+                "similarity": 0.5052651166915894
+            },
+            {
+                "course_id": "PG_00045291",
+                "course_phrase": "command line shell scripting",
+                "similarity": 0.5042234659194946
+            },
+            {
+                "course_id": "PG_00045291",
+                "course_phrase": "command line shell scripting",
+                "similarity": 0.5042234659194946
+            },
+            {
+                "course_id": "PG_00045293",
+                "course_phrase": "student wykorzystywać jezyk python cel",
+                "similarity": 0.5039301514625549
+            },
+            {
+                "course_id": "PG_00045293",
+                "course_phrase": "operacje pythonie czesc analiza",
+                "similarity": 0.5028955936431885
+            },
+            {
+                "course_id": "PG_00045293",
+                "course_phrase": "data analysis python",
+                "similarity": 0.5025844573974609
+            },
+            {
+                "course_id": "PG_00045380",
+                "course_phrase": "python przygotowywanie",
+                "similarity": 0.5023709535598755
+            },
+            {
+                "course_id": "PG_00045293",
+                "course_phrase": "pythona przeprowadz analize",
+                "similarity": 0.5017296075820923
+            },
+            {
+                "course_id": "PG_00045293",
+                "course_phrase": "jezyk operacja pythonie czesc analiza",
+                "similarity": 0.5011197328567505
+            },
+            {
+                "course_id": "PG_00045295",
+                "course_phrase": "java c python javascript",
+                "similarity": 0.501105010509491
+            },
+            {
+                "course_id": "PG_00045295",
+                "course_phrase": "java c python javascript",
+                "similarity": 0.501105010509491
+            },
+            {
+                "course_id": "PG_00045380",
+                "course_phrase": "mastering data mining python",
+                "similarity": 0.5010689496994019
+            },
+            {
+                "course_id": "PG_00045380",
+                "course_phrase": "mastering data mining python",
+                "similarity": 0.5010689496994019
+            },
+            {
+                "course_id": "PG_00045295",
+                "course_phrase": "programming python uzupelniajaca",
+                "similarity": 0.5010132193565369
+            },
+            {
+                "course_id": "PG_00045380",
+                "course_phrase": "python przygotowywać dane wizualizacja",
+                "similarity": 0.5007817149162292
+            },
+            {
+                "course_id": "PG_00045298",
+                "course_phrase": "data scientists r python",
+                "similarity": 0.5003142356872559
+            },
+            {
+                "course_id": "PG_00045298",
+                "course_phrase": "data scientists r python",
+                "similarity": 0.5003142356872559
+            }
+        ],
+        "Participate in knowledge transfer and tandem work with internal staff to ensure long-term stability.": [
+            {
+                "course_id": "PG_00045362",
+                "course_phrase": "knowledge management",
+                "similarity": 0.5463826656341553
+            },
+            {
+                "course_id": "PG_00045362",
+                "course_phrase": "knowledge management",
+                "similarity": 0.5463826656341553
+            },
+            {
+                "course_id": "PG_00045362",
+                "course_phrase": "knowledge management",
+                "similarity": 0.5463826656341553
+            },
+            {
+                "course_id": "PG_00045362",
+                "course_phrase": "knowledge management",
+                "similarity": 0.5463826656341553
+            },
+            {
+                "course_id": "PG_00045362",
+                "course_phrase": "knowledge management",
+                "similarity": 0.5463826656341553
+            },
+            {
+                "course_id": "PG_00045362",
+                "course_phrase": "knowledge management",
+                "similarity": 0.5463826656341553
+            },
+            {
+                "course_id": "PG_00045371",
+                "course_phrase": "knowledge management",
+                "similarity": 0.5463826656341553
+            },
+            {
+                "course_id": "PG_00045371",
+                "course_phrase": "knowledge management",
+                "similarity": 0.5463826656341553
+            },
+            {
+                "course_id": "PG_00045362",
+                "course_phrase": "knowledge strategy tacit knowledge",
+                "similarity": 0.5400331020355225
+            },
+            {
+                "course_id": "PG_00045362",
+                "course_phrase": "knowledge strategy tacit knowledge",
+                "similarity": 0.5400331020355225
+            },
+            {
+                "course_id": "PG_00045362",
+                "course_phrase": "knowledge strategy tacit",
+                "similarity": 0.5387213826179504
+            },
+            {
+                "course_id": "PG_00045362",
+                "course_phrase": "knowledge strategy tacit",
+                "similarity": 0.5387213826179504
+            },
+            {
+                "course_id": "PG_00045362",
+                "course_phrase": "knowledge strategy",
+                "similarity": 0.5378619432449341
+            },
+            {
+                "course_id": "PG_00045362",
+                "course_phrase": "knowledge strategy",
+                "similarity": 0.5378619432449341
+            },
+            {
+                "course_id": "PG_00045362",
+                "course_phrase": "knowledge workers knowledge",
+                "similarity": 0.5298672914505005
+            },
+            {
+                "course_id": "PG_00045362",
+                "course_phrase": "knowledge workers knowledge",
+                "similarity": 0.5298672914505005
+            },
+            {
+                "course_id": "PG_00045362",
+                "course_phrase": "knowledge workers",
+                "similarity": 0.5272496938705444
+            },
+            {
+                "course_id": "PG_00045362",
+                "course_phrase": "knowledge workers",
+                "similarity": 0.5272495150566101
+            },
+            {
+                "course_id": "PG_00045362",
+                "course_phrase": "knowledge mangement",
+                "similarity": 0.5266438126564026
+            },
+            {
+                "course_id": "PG_00045362",
+                "course_phrase": "knowledge mangement",
+                "similarity": 0.5266438126564026
+            },
+            {
+                "course_id": "PG_00045362",
+                "course_phrase": "tacit knowledge innovation knowledge workers",
+                "similarity": 0.523699164390564
+            },
+            {
+                "course_id": "PG_00045362",
+                "course_phrase": "tacit knowledge innovation knowledge workers",
+                "similarity": 0.523699164390564
+            },
+            {
+                "course_id": "PG_00053094",
+                "course_phrase": "knowledge gain",
+                "similarity": 0.522310733795166
+            },
+            {
+                "course_id": "PG_00045362",
+                "course_phrase": "capital knowledge strategy tacit knowledge",
+                "similarity": 0.5205835700035095
+            },
+            {
+                "course_id": "PG_00045362",
+                "course_phrase": "capital knowledge strategy tacit knowledge",
+                "similarity": 0.5205835700035095
+            },
+            {
+                "course_id": "PG_00045362",
+                "course_phrase": "strategy tacit knowledge",
+                "similarity": 0.5165051221847534
+            },
+            {
+                "course_id": "PG_00045362",
+                "course_phrase": "strategy tacit knowledge",
+                "similarity": 0.5165051221847534
+            },
+            {
+                "course_id": "PG_00045362",
+                "course_phrase": "knowledge change management",
+                "similarity": 0.5080982446670532
+            },
+            {
+                "course_id": "PG_00045362",
+                "course_phrase": "knowledge change management",
+                "similarity": 0.5080982446670532
+            },
+            {
+                "course_id": "PG_00053094",
+                "course_phrase": "ability use knowledge gain",
+                "similarity": 0.5067976117134094
+            },
+            {
+                "course_id": "PG_00045371",
+                "course_phrase": "base knowledge management",
+                "similarity": 0.5052360892295837
+            },
+            {
+                "course_id": "PG_00053094",
+                "course_phrase": "use knowledge gain",
+                "similarity": 0.5050411820411682
+            }
+        ],
+        "Support potential migration initiatives and integration with Git-based environments (Jenkins, Azure DevOps).": [
+            {
+                "course_id": "PG_00064004",
+                "course_phrase": "git",
+                "similarity": 0.5289914608001709
+            },
+            {
+                "course_id": "PG_00064004",
+                "course_phrase": "git",
+                "similarity": 0.5289914608001709
             }
         ]
     }

@@ -58,7 +58,7 @@ op_fields = [
     "responsibilities_1"
 ]
 
-threshold = 0.6
+threshold = 0.45
 
 all_op_phrases = []
 
