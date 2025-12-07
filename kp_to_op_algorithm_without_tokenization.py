@@ -3,7 +3,7 @@ from sentence_transformers import SentenceTransformer, util
 
 model = SentenceTransformer('all-MiniLM-L6-v2')
 
-# 1️⃣ Wczytanie danych
+# Wczytanie danych
 with open("json_karty/ngrams_per_course.json", "r", encoding="utf-8") as f:
     courses = json.load(f)
 
@@ -11,8 +11,7 @@ with open("json_karty/ngrams_per_course.json", "r", encoding="utf-8") as f:
 with open("job_offers_json/details_2025-11.json", "r", encoding="utf-8") as f:
     jobs = json.load(f)
 
-# 2️⃣ Przygotowanie fraz KP (Karty Przedmiotów)
-# Używamy tej samej logiki co w oryginale, aby uzyskać pełne frazy KP
+# Przygotowanie fraz KP (Karty Przedmiotów)
 all_course_phrases = []
 course_map = []  # (course_id, fraza)
 
@@ -32,8 +31,7 @@ for course_id, fields in courses.items():
                 all_course_phrases.append(phrase)
                 course_map.append((course_id, phrase))
 
-# 3️⃣ Przygotowanie puli wszystkich fraz OP (Oferty Pracy)
-# Musimy zebrać WSZYSTKIE frazy OP z całego pliku do jednej puli
+# Przygotowanie puli wszystkich fraz OP (Oferty Pracy)
 all_op_phrases = []
 op_map = []  # (job_id, fraza)
 
@@ -60,7 +58,7 @@ for job_entry in jobs:
                     all_op_phrases.append(phrase)
                     op_map.append((job_id, phrase))
 
-# 4️⃣ Embeddingi OP
+# Embeddingi OP
 print("Tworzenie embeddingów wszystkich fraz OP...")
 op_embeddings = model.encode(
     all_op_phrases,
@@ -69,8 +67,7 @@ op_embeddings = model.encode(
 )
 print(f"Gotowe. Wygenerowano {len(op_embeddings)} embeddingów OP.")
 
-# 5️⃣ Embeddingi KP
-# Musimy wygenerować embeddingi KP lub wczytać zapisane
+# Embeddingi KP
 print("Tworzenie embeddingów KP...")
 course_embeddings = model.encode(
     all_course_phrases,
@@ -79,27 +76,23 @@ course_embeddings = model.encode(
 )
 print(f"Gotowe. Wygenerowano {len(course_embeddings)} embeddingów KP.")
 
-# 6️⃣ Porównanie KP ↔ OP
+# Porównanie KP ↔ OP
 results = {}
 threshold = 0.45
 
-# Iterujemy po każdej frazie KP i szukamy pasujących fraz OP
 for i, course_phrase in enumerate(all_course_phrases):
-    # Embedding pojedynczej frazy KP
     kp_embedding = course_embeddings[i].unsqueeze(0)
 
     # Cosine similarity (KP ↔ Wszystkie OP)
-    # cos_scores ma wymiar [1, liczba_fraz_OP]
     cos_scores = util.cos_sim(kp_embedding, op_embeddings)
 
-    # Wyszukanie indeksów fraz OP, które przekroczyły próg
     match_indices = (cos_scores.squeeze(0) > threshold).nonzero(as_tuple=True)[0]
 
     matches = []
     if len(match_indices) > 0:
         for idx in match_indices:
             job_id, job_phrase = op_map[idx]
-            similarity = float(cos_scores[0][idx])  # cos_scores[0] bo to jest macierz 1xN
+            similarity = float(cos_scores[0][idx])
 
             matches.append({
                 "job_id": job_id,
@@ -120,7 +113,7 @@ for i, course_phrase in enumerate(all_course_phrases):
         # Struktura: course_id -> {course_phrase -> [lista_dopasowań_OP]}
         results[course_id][course_phrase] = matches
 
-# 7️⃣ Zapis wyników
+# Zapis wyników
 output_filename = "kp_to_op/kp_to_op_matches_no_tokenization_2025_11.json"
 
 with open(output_filename, "w", encoding="utf-8") as f:
